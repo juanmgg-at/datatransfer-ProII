@@ -54,7 +54,7 @@ namespace DataExtractionNamespace
                 // Simple Shell&Tube (CQ00730631) Use with Detailed
                 // The order matters, Detailed goes second, otherwise test will fail. It has to do with the order of attributes in baseline
                 { "243", "HeatExchanger" },
-                
+
             }
         },
 
@@ -90,7 +90,7 @@ namespace DataExtractionNamespace
                 // Simple Plate Heat Exchanger (CQ00749672) Use with Detailed
                  // The order matters, Detailed goes second, otherwise test will fail. It has to do with the order of attributes in baseline
                 { "582", "HeatExchanger" },
-                
+
             }
         },
 
@@ -175,7 +175,7 @@ namespace DataExtractionNamespace
                 { "1075", "Port" },
                 //Inlet 2
                 { "1093", "Port" },
-             
+
             }
         },
 
@@ -274,7 +274,7 @@ namespace DataExtractionNamespace
                 // SimpleShell&TubeHE (CQ00748796)
                 { "400", "HeatExchanger" },
 
-                
+
             }
         },
 
@@ -325,7 +325,7 @@ namespace DataExtractionNamespace
                 { "2636", "CurveData" },
                 { "2637", "CurveData" },
                 { "2638", "CurveData" },
-       
+
             }
         },
 
@@ -344,7 +344,7 @@ namespace DataExtractionNamespace
 
                 // Stream (CQ00730633) Uswe MaterialPort-Inlet OID
                 { "1160", "PipingSystem" },
-                
+
             }
         },
 
@@ -355,7 +355,7 @@ namespace DataExtractionNamespace
                 // Vessels
                 //Inlet 1
                 { "1209", "Port" },
-            
+
             }
         },
 
@@ -397,7 +397,7 @@ namespace DataExtractionNamespace
             { "1304", "TraySection" },
             { "2279", "ColumnSection" },
         }
-            
+
         },
 
         // 37. HeaterCooler
@@ -406,7 +406,7 @@ namespace DataExtractionNamespace
 
             { "112", "HeaterCooler" },
             { "129", "HeaterCooler" },
-    
+
             }
         },
 
@@ -420,6 +420,43 @@ namespace DataExtractionNamespace
 
             }
         },
+
+        // 39. Simple HX
+        { 39, new Dictionary<string, string>
+             {
+                 {"316", "HeatExchanger" }
+             }
+
+         },
+
+        // 40. Pump
+        { 40, new Dictionary<string, string>
+             {
+                 {"345", "Pump" }
+             }
+
+         },
+
+        // 41. Valve
+        { 41, new Dictionary<string, string>
+             {
+                 {"299", "Valve" }
+             }
+
+         },
+
+        // 42. Flash
+        { 42, new Dictionary<string, string>
+             {
+                 {"309", "Separator" }
+             }
+
+         },
+
+       
+
+
+
     };
 
     }

@@ -48,6 +48,8 @@ namespace DataExtractionNamespace
                 BusinessServer = Environment.BusinessServer
             };
 
+
+
             // Connect to workspace
             ws.Connect();
 

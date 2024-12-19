@@ -9,8 +9,8 @@ namespace DataExtractionNamespace
 
     public static class Environment
     {
-        public const string WorkspaceName = "DT1";
-        public const string BusinessServer = "GUTIERRJ-S22.qae.aspentech.com";
+        public const string WorkspaceName = "A1";
+        public const string BusinessServer = "ABE-Automation.qae.aspentech.com";
 
         
         public const string application = "Mapper";
@@ -20,13 +20,15 @@ namespace DataExtractionNamespace
 
         // Modify this path to our repository path
 
-        public const string pathToStoreFiles = "C:\\Users\\gutierrj\\Downloads\\data_transfer\\data_transfer\\DataExtraction1\\";
+        public const string pathToStoreFiles = "C:\\Users\\gutierrj\\source\\data_transfer\\data_transfer\\DataExtraction1\\";
+
 
         public const string baselinePathFile = pathToStoreFiles + "baseline.xlsx";
 
         // The order here has to be the same as the order in TestCases
         public static readonly Dictionary<string, int> TitleToTestId = new Dictionary<string, int>
         {
+            // A+ only
             // DO NOT DELETE THIS AND KEEP THE SAME ORDER
             // Uncomment what you want to test
             //{ "Pump & Pump Curves", 1 },
@@ -46,8 +48,8 @@ namespace DataExtractionNamespace
             //{ "Expander", 14 },
             //{ "Streams", 15 },
             //{ "Vessels", 16 },
-            { "Utility", 17 },
-            { "Column", 18 }
+            //{ "Utility", 17 },
+            //{ "Column", 18 }
 
             //HYSYS only
             //{ "Pump & Pump Curves", 19 },
@@ -70,6 +72,12 @@ namespace DataExtractionNamespace
             //{ "ColumnMainTS", 36 },
             //{ "HeaterCooler", 37 },
             //{ "ColumnTS1", 38 },
+
+            // ProII only 
+            {"Simple HX",  39},
+            { "Pump", 40 },
+            { "Valve", 41 },
+            { "Flash", 42 },
 
 
         };

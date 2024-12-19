@@ -41,7 +41,9 @@ namespace DataExtractionNamespace
 
                 // Select classview
                 string className = testCase.ClassName;  
+                // Get Object OID
                 string oid = testCase.Oid;
+                // Get sheet name
                 string sheetName = testCase.SheetName;
 
                 // Extract attribute values
@@ -49,11 +51,7 @@ namespace DataExtractionNamespace
                 string text;
                 attributes = Mapping.ReadViewEx(ws, Environment.application, Environment.usage, className, int.Parse(oid), 0, out text);
 
-                //Console.WriteLine(text);
                 // Iterate over the extracted attributes
-
-                
-
                 foreach (AZCMappingSvcs.AZCViewAttribute attr in attributes)
 
                 {
@@ -64,7 +62,7 @@ namespace DataExtractionNamespace
                     bool isString = attr.Value is string;
                     bool isValid = isNumber || isString;
 
-                    if (!isValid) continue;
+                    //if (!isValid) continue;
 
                     string keyId = $"{sheetName}|{className}|{attributeName}";
 
@@ -131,7 +129,7 @@ namespace DataExtractionNamespace
             //var baselinePath = $@"{Environment.pathToStoreFiles}baseline.xlsx";
 
 
-            Utilis.CompareFiles(Environment.baselinePathFile, extractedDataPath);
+            //Utilis.CompareFiles(Environment.baselinePathFile, extractedDataPath);
 
             Console.WriteLine("Done!");
 
