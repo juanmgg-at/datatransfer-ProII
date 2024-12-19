@@ -1,0 +1,13 @@
+﻿Oid,ClassName,Name,Value,Baseline,Units,IsSame
+147,Separator,LiquidDensityMassBasis,846.317976510128,846.317976510128,kg/m^3,✔
+147,Separator,LiquidMassFlow,0.283430276625374,0.283430276625374,kg/s,✔
+147,Separator,LiquidMolarFlow,0.0119120107222222,0.0119120107222222,kmol/s,✔
+147,Separator,LiquidVolumeFlow,0.000334898093260556,0.000334898093260556,m^3/s,✔
+147,Separator,OperatingPressure,149354.137,149354.137,Pa,✔
+147,Separator,OperatingTemperature,353.15,353.15,K,✔
+147,Separator,VaporDensity,1.5876158052688,1.5876158052688,kg/m^3,✔
+147,Separator,VaporMassFlow,3.34612539321516,3.34612539321516,kg/s,✔
+147,Separator,VaporMolarFlow,0.1072080965,0.1072080965,kmol/s,✔
+147,Separator,VaporMolecularWeight,31.2114989674791,31.2114989674791,g/mol,✔
+147,Separator,VaporVolumeFlow,2.10764177460971,2.10764177460971,m^3/s,✔
+Test Summary: Pass, Number of Fails: 0

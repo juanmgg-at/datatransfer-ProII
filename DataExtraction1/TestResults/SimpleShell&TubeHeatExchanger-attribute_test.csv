@@ -1,0 +1,24 @@
+﻿Oid,ClassName,Name,Value,Baseline,Units,IsSame
+305,HeatExchanger,ColdPressureIn,2068427.18985011,2068427.18985011,Pa,✔
+305,HeatExchanger,ColdPressureOut,2068427.18985011,2068427.18985011,Pa,✔
+305,HeatExchanger,ColdVaporMoleFractionIn,1.14133335660238E-06,1.14133335660238E-06,fraction,✔
+305,HeatExchanger,ColdVaporMoleFractionOut,0.194028140482519,0.194028140482519,fraction,✔
+305,HeatExchanger,Duty,1465662.80879012,1465662.80879012,W,✔
+305,HeatExchanger,HotPressureIn,1896058.25269457,1896058.25269457,Pa,✔
+305,HeatExchanger,HotPressureOut,1896058.25269457,1896058.25269457,Pa,✔
+305,HeatExchanger,HotTemperatureIn,460.992663994445,460.992663994445,K,✔
+305,HeatExchanger,HotTemperatureOut,391.069614240169,391.069614240169,K,✔
+305,HeatExchanger,HotVaporMoleFractionIn,1.72849841773015E-07,1.72849841773015E-07,fraction,✔
+305,HeatExchanger,HotVaporMoleFractionOut,0,0,fraction,✔
+305,HeatExchanger,LogMeanTempDiffCorrectionFactor,0.822828553,0.822828553,,✔
+305,HeatExchanger,LogMeanTemperatureDifference,64.4260023631531,64.4260023631531,K,✔
+305,HeatExchanger,LogMeanTemperatureDifferenceCorrected,53.0115543333334,53.0115543333334,K,✔
+305,HeatExchanger,TubeInletTemperature,334.265298888889,334.265298888889,K,✔
+305,HeatExchanger,TubeOutletTemperature,388.291865723826,388.291865723826,K,✔
+305,HeatExchanger,UA,27647.9878215223,27647.9878215223,W/K,✔
+305,HeatExchanger,UFouled,849.999999262053,849.999999262053,W/(m^2.K),✔
+243,HeatExchanger,UClean,0.0974172591344797,0.0974172591344797,W/(m^2.K),✔
+243,HeatExchanger,ThermalEffectiveness,0.563631593126776,0.563631593126776,,✔
+243,HeatExchanger,ShellParallel,2,2,,✔
+305,HeatExchanger,ShellSeries,1,1,,✔
+Test Summary: Pass, Number of Fails: 0

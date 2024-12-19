@@ -1,0 +1,17 @@
+﻿Oid,ClassName,Name,Value,Baseline,Units,IsSame
+916,Compressor,BrakeHorsePower,-34855.0004975051,-34855.0004975051,W,✔
+916,Compressor,CompressibiltyIn,0.974058357,0.974058357,unitless,✔
+916,Compressor,CompressibiltyOut,0.985816061,0.985816061,unitless,✔
+916,Compressor,EnthalpyFlowIn,-3518487.92176262,-3518487.922,J/kg,✔
+916,Compressor,EnthalpyFlowOut,-3690522.67558257,-3690522.676,J/kg,✔
+916,Compressor,IsentropicEfficiency,0.741162406,0.741162406,unitless,✔
+916,Compressor,MassFlowIn,0.302394913333334,0.302394913,kg/s,✔
+916,Compressor,MassFlowOut,0.302394913333334,0.302394913,kg/s,✔
+916,Compressor,MechanicalEfficiency,0.67,0.67,unitless,✔
+916,Compressor,MolarFlowIn,0.0149324745128055,0.014932475,kmol/s,✔
+916,Compressor,MolarFlowOut,0.0149324745128055,0.014932475,kmol/s,✔
+916,Compressor,PressureDrop,3172188.10911011,3172188.109,Pa,✔
+916,Compressor,PressureOut,964666.26679091,964666.2668,Pa,✔
+916,Compressor,TemperatureOut,373.2326,373.2326,K,✔
+916,Compressor,VolumetricFlowOut,0.0473540803840885,0.04735408,m^3/s,✔
+Test Summary: Pass, Number of Fails: 0
