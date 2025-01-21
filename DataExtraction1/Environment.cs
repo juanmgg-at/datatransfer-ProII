@@ -9,7 +9,7 @@ namespace DataExtractionNamespace
 
     public static class Environment
     {
-        public const string WorkspaceName = "A1";
+        public const string WorkspaceName = "JM";
         public const string BusinessServer = "ABE-Automation.qae.aspentech.com";
 
         
@@ -20,8 +20,9 @@ namespace DataExtractionNamespace
 
         // Modify this path to our repository path
 
-        public const string pathToStoreFiles = "C:\\Users\\gutierrj\\source\\data_transfer\\data_transfer\\DataExtraction1\\";
+        public const string pathToStoreFiles = @"C:\Users\gutierrj\Desktop\ThermalDesgin\datatransfer-ProII\DataExtraction1\";
 
+        
 
         public const string baselinePathFile = pathToStoreFiles + "baseline.xlsx";
 
@@ -74,11 +75,17 @@ namespace DataExtractionNamespace
             //{ "ColumnTS1", 38 },
 
             // ProII only 
-            {"Simple HX",  39},
-            { "Pump", 40 },
-            { "Valve", 41 },
-            { "Flash", 42 },
+            //{"Simple HX",  39},
+            //{ "Pump", 40 },
+            //{ "Valve", 41 },
+            //{ "Flash", 42 },
 
+
+            // Thermal Design Only 
+
+            {"AirCooled", 43 },
+            {"Plate", 44 },
+            {"Shell&Tube", 45 },
 
         };
 

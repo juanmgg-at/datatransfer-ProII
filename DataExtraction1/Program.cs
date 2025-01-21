@@ -59,10 +59,10 @@ namespace DataExtractionNamespace
                     string units = attr.Units;
 
                     bool isNumber = attr.Value is double || attr.Value is int;
-                    bool isString = attr.Value is string;
+                    bool isString = attr.Value is string && attr.Value != "";
                     bool isValid = isNumber || isString;
 
-                    //if (!isValid) continue;
+                    if (!isValid) continue;
 
                     string keyId = $"{sheetName}|{className}|{attributeName}";
 
