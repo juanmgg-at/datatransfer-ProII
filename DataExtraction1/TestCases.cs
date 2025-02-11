@@ -424,7 +424,7 @@ namespace DataExtractionNamespace
         // 39. Simple HX
         { 39, new Dictionary<string, string>
              {
-                 {"11", "HeatExchanger" }
+                 {"92", "HeatExchanger" }
              }
 
          },
@@ -432,7 +432,7 @@ namespace DataExtractionNamespace
         // 40. Pump
         { 40, new Dictionary<string, string>
              {
-                 {"137", "Pump" }
+                 {"179", "Pump" }
              }
 
          },
@@ -440,7 +440,7 @@ namespace DataExtractionNamespace
         // 41. Valve
         { 41, new Dictionary<string, string>
              {
-                 {"175", "Valve" }
+                 {"280", "Valve" }
              }
 
          },
@@ -456,7 +456,7 @@ namespace DataExtractionNamespace
          // 43. Compressor
         { 43, new Dictionary<string, string>
              {
-                 {"280", "Compressor" }
+                 {"322", "Compressor" }
              }
 
          },
@@ -464,7 +464,7 @@ namespace DataExtractionNamespace
          // 44. Air Cooled HX
         { 44, new Dictionary<string, string>
              {
-                 {"307", "AirCooledExchanger" }
+                 {"366", "AirCooledExchanger" }
              }
 
          }, 
@@ -472,21 +472,21 @@ namespace DataExtractionNamespace
         // 45. Stream
         { 45, new Dictionary<string, string>
              {
-                 {"394", "PipingSystem" }
+                 {"471", "PipingSystem" }
              }
 
          },
         // 46. Bulk Phase & Liquid Phase
         { 46, new Dictionary<string, string>
              {
-                 {"479", "PipingSystem" }
+                 {"489", "PipingSystem" }
              }
 
          },
           // 47. Vapor Phase
         { 47, new Dictionary<string, string>
              {
-                 {"497", "PipingSystem" }
+                 {"507", "PipingSystem" }
              }
 
          },   
@@ -498,6 +498,24 @@ namespace DataExtractionNamespace
              }
 
          },
+
+        // 49 Mixer
+        { 49, new Dictionary<string, string>
+             {
+                 {"530", "Generic" }
+             }
+
+         },
+
+        // 50 Splitter
+        { 50, new Dictionary<string, string>
+             {
+                 {"695", "Generic" }
+             }
+
+         },
+
+       
 
 
             //// 43. AirCooled
