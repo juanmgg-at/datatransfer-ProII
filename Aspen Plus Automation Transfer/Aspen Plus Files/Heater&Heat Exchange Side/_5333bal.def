@@ -1,0 +1,10 @@
+SLAVE:
+INPUT: _5333bal.inm
+MODNAME: apmain
+RUNID: _5333bal
+NEW_RUNID: _5333bal
+OLD_RUNID: _5333bal
+PDF: _5333bal.appdf
+USERNAME: gutierrj
+XMOD: C:\Program Files\AspenTech\Aspen Plus V15.0\Engine\xeq\apmain
+DBCONN: _5333bal.ads

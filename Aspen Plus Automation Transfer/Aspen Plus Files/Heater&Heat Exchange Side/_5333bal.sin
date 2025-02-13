@@ -1,0 +1,78 @@
+ >>ORIGINAL RUN                           FEBRUARY 11, 2025   
+   5:53:58 P.M.                           TUESDAY     
+   INPUT FILE: _5333bal.inm
+   RUN ID : _5333bal
+          1    ;
+          2    ;Input file created by Aspen Plus Rel. 41.0 at 17:53:58 Tue Feb 11, 2025
+          3    ;Directory   Runid HEATER_COOLER
+          4    ;
+          5
+          6
+          7    DYNAMICS
+          8        DYNAMICS RESULTS=ON
+          9
+         10    IN-UNITS ENG SHORT-LENGTH=in
+         11
+         12    DEF-STREAMS CONVEN ALL
+         13
+         14    MODEL-OPTION
+         15
+         16    DATABANKS 'APV150 PURE36' / 'APV150 AQUEOUS' / 'APV150 SOLIDS' &
+         17             / 'APV150 INORGANIC' / 'APESV150 AP-EOS' /  &
+         18            'NISTV150 NIST-TRC' / NOASPENPCD
+         19
+         20    PROP-SOURCES 'APV150 PURE36' / 'APV150 AQUEOUS' /  &
+         21            'APV150 SOLIDS' / 'APV150 INORGANIC' / 'APESV150 AP-EOS' &
+         22             / 'NISTV150 NIST-TRC'
+         23
+         24    COMPONENTS
+         25        METHA-01 CH4 /
+         26        ETHAN-01 C2H6 /
+         27        PROPA-01 C3H8
+         28
+         29    SOLVE
+         30        RUN-MODE MODE=SIM
+         31
+         32    FLOWSHEET
+         33        BLOCK 1 IN=INLET OUT=OUTLET
+         34
+         35    PROPERTIES SRK
+         36
+         37    PROP-DATA SRKKIJ-1
+         38        IN-UNITS MET PRESSURE=bar TEMPERATURE=C DELTA-T=C PDROP=bar  &
+         39            INVERSE-PRES='1/bar' SHORT-LENGTH=mm
+         40        PROP-LIST SRKKIJ
+         41        BPVAL METHA-01 ETHAN-01 4.21992000E-4 0.0 0.0 -273.1500000  &
+         42            726.8500000
+         43        BPVAL ETHAN-01 METHA-01 4.21992000E-4 0.0 0.0 -273.1500000  &
+         44            726.8500000
+         45        BPVAL METHA-01 PROPA-01 .0241509000 0.0 0.0 -273.1500000  &
+         46            726.8500000
+         47        BPVAL PROPA-01 METHA-01 .0241509000 0.0 0.0 -273.1500000  &
+         48            726.8500000
+         49        BPVAL ETHAN-01 PROPA-01 1.69511000E-3 0.0 0.0 -273.1500000  &
+         50            726.8500000
+         51        BPVAL PROPA-01 ETHAN-01 1.69511000E-3 0.0 0.0 -273.1500000  &
+         52            726.8500000
+         53
+         54    PROP-SET PS-1 HMX SUBSTREAM=MIXED
+         55
+         56    STREAM INLET
+         57        SUBSTREAM MIXED PRES=500. VFRAC=0.5 MASS-FLOW=20200.
+         58        MOLE-FRAC METHA-01 0.56 / ETHAN-01 0.4 / PROPA-01 0.04
+         59
+         60    BLOCK 1 HEATER
+         61        PARAM TEMP=300. PRES=0. DPPARMOPT=NO
+         62        HCURVE 1 INDEP-VAR=TEMP PROPERTIES=PS-1
+         63
+         64    EO-CONV-OPTI
+         65
+         66    STREAM-REPOR MOLEFLOW
+         67    ;
+         68    ;
+         69    ;
+         70    ;
+         71    ;
+
+   SIMULATION STARTED     MODULE USED: apmain  
+   LOCATED IN:C:\Program Files\AspenTech\Aspen Plus V15.0\Engine\\xeq

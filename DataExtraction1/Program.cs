@@ -126,10 +126,10 @@ namespace DataExtractionNamespace
 
 
             // Path to your baseline file
-            //var baselinePath = $@"{Environment.pathToStoreFiles}baseline.xlsx";
+            var baselinePath = $@"{Environment.pathToStoreFiles}baseline.xlsx";
 
 
-            //Utilis.CompareFiles(Environment.baselinePathFile, extractedDataPath);
+            Utilis.CompareFiles(Environment.baselinePathFile, extractedDataPath);
 
             Console.WriteLine("Done!");
 

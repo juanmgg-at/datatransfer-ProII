@@ -260,7 +260,7 @@ namespace DataExtractionNamespace
             }
         }
 
-        public static bool AreDecimalsEqual(string value1, string value2, int precision = 3)
+        public static bool AreDecimalsEqual(string value1, string value2, int precision = 1)
         {
             var decimal1 = ParseDecimal(value1);
             var decimal2 = ParseDecimal(value2);
@@ -268,7 +268,10 @@ namespace DataExtractionNamespace
             if (decimal1.HasValue && decimal2.HasValue)
             {
                 // Compare rounded values
-                return Math.Round(decimal1.Value, precision) == Math.Round(decimal2.Value, precision);
+
+                var newDecimal1 = Math.Round(decimal1.Value, precision);
+                var newDecimal2 = Math.Round(decimal2.Value, precision);
+                return  newDecimal1 == newDecimal2;
             }
 
             // If parsing fails, fall back to string comparison

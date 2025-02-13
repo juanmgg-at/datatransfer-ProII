@@ -1,0 +1,253 @@
+ >>ORIGINAL RUN                           JUNE 13, 2017       
+   10:43:36 P.M.                          TUESDAY     
+   INPUT FILE: _4301jnt.inm
+   RUN ID : _4301jnt
+          1    ;
+          2    ;Input file created by Aspen Plus Rel. 36.0 at 22:43:35 Tue Jun 13, 2017
+          3    ;Directory C:\Users\qahee\Desktop\SM simple file\Utility\Column  Runid COLUMN_UTILITY
+          4    ;
+          5
+          6
+          7    DYNAMICS
+          8        DYNAMICS RESULTS=ON
+          9
+         10    TITLE 'HYDROGENATION OF BENZENE TO CYCLOHEXANE'
+         11
+         12    IN-UNITS ENG SHORT-LENGTH=in
+         13
+         14    DEF-STREAMS CONVEN ALL
+         15
+         16    DIAGNOSTICS
+         17        TERMINAL SIM-LEVEL=4 CONV-LEVEL=4 COST-LEVEL=4 PROP-LEVEL=4  &
+         18            ECON-LEVEL=4 STREAM-LEVEL=4 SYS-LEVEL=4
+         19
+         20    MODEL-OPTION
+         21
+         22    DESCRIPTION "
+         23        This is a model of a process for producing cyclohexane by
+         24        hydrogenation of benzene. It is intended as an example to
+         25        illustrate the use of Aspen Plus. The purpose of this
+         26        simulation is to obtain a base case heat and material
+         27        balance and to evaluate the performance of major units in
+         28        the flowsheet.
+         29        "
+         30
+         31    DATABANKS 'APV100 PURE35' / 'APV100 AQUEOUS' /  &
+         32            'APV100 INORGANIC' / 'APV100 ASPENPCD'
+         33
+         34    PROP-SOURCES 'APV100 PURE35' / 'APV100 AQUEOUS' /  &
+         35            'APV100 INORGANIC' / 'APV100 ASPENPCD'
+         36
+         37    COMPONENTS
+         38        H2 H2 /
+         39        N2 N2 /
+         40        C1 CH4 /
+         41        BZ C6H6 /
+         42        CH C6H12-1 /
+         43        WATER H2O
+         44
+         45    SOLVE
+         46        RUN-MODE MODE=SIM
+         47
+         48    FLOWSHEET
+         49        BLOCK B1 IN=1 2 11 12 OUT=3
+         50        BLOCK B2 IN=3 OUT=4
+         51        BLOCK B3 IN=4 OUT=5 6
+         52        BLOCK B4 IN=5 OUT=11 10
+         53        BLOCK B5 IN=6 OUT=12 7
+         54        BLOCK B6 IN=7 OUT=8 9
+         55        BLOCK B8 IN=S9 OUT=S8
+         56
+         57    PROPERTIES RK-SOAVE
+         58
+         59    PROP-SET SET1 TEMP PRES MOLEFLOW MOLEFRAC SUBSTREAM=MIXED  &
+         60            PHASE=V L
+         61
+         62    STREAM 1
+         63        SUBSTREAM MIXED TEMP=120.0 PRES=335.0 MOLE-FLOW=300.0
+         64        MOLE-FRAC H2 .9750 / N2 5.0E-03 / C1 .020
+         65
+         66    STREAM 2
+         67        SUBSTREAM MIXED TEMP=100.0 PRES=15.0 MOLE-FLOW=100.0
+         68        MOLE-FRAC BZ 1.0
+         69
+         70    STREAM S9
+         71        SUBSTREAM MIXED TEMP=500. PRES=8004. MOLE-FLOW=500.
+         72        MASS-FRAC H2 0.8 / N2 0.2
+         73
+         74    BLOCK B4 FSPLIT
+         75        FRAC 10 .080
+         76
+         77    BLOCK B5 FSPLIT
+         78        FRAC 12 .30
+         79
+         80    BLOCK B1 HEATER
+         81        PARAM TEMP=300.0 PRES=330.0 DPPARMOPT=NO
+         82        HCURVE 1 NPOINT=5
+         83        HCURVE 2 INDEP-VAR=TEMP
+         84        UTILITY UTILITY-ID=U-3
+         85
+         86    BLOCK B3 FLASH2
+         87        PARAM TEMP=120.0 PRES=-5.0
+         88        HCURVE 1 INDEP-VAR=VFRAC
+         89
+         90    BLOCK B6 RADFRAC
+         91        SUBOBJECTS PUMPAROUND = P-1
+         92        PARAM NSTAGE=15 NPA=1 ALGORITHM=STANDARD MAXOL=25  &
+         93            DAMPING=NONE
+         94        COL-CONFIG CONDENSER=PARTIAL-V
+         95        DIAGNOSTICS TERM=5
+         96        PUMPAROUND P-1 3 6 MOLE-FLOW=5. TEMP=350. VAPOR-STAGE=6
+         97        FEEDS 7 8
+         98        PRODUCTS 8 1 V / 9 15 L
+         99        P-SPEC 1 200.0
+        100        COL-SPECS MOLE-B=99.0 MOLE-RR=1.20
+        101        SPEC 1 MOLE-RECOV .99990 COMPS=CH STREAMS=9  &
+        102            SPEC-DESCRIP="Mole recovery, .99990"
+        103        VARY 1 MOLE-B 97.0 101.0
+        104        COND-HCURVE 1
+        105        REB-HCURVE 1
+        106        TRAY-REPORT TRAY-OPTION=ALL-TRAYS PROPERTIES=SET1
+        107        PA-UTL P-1 U-11
+        108        UTILITIES COND-UTIL=U-5 REB-UTIL=U-8
+        109
+        110    BLOCK B2 RSTOIC
+        111        PARAM TEMP=400.0 PRES=-15.0
+        112        STOIC 1 MIXED BZ -1.0 / H2 -3.0 / CH 1.0
+        113        CONV 1 MIXED BZ .9980
+        114
+        115    BLOCK B8 COMPR
+        116        PARAM TYPE=ASME-POLYTROP PRES=400. PEFF=0.8 MEFF=0.7  &
+        117            SB-MAXIT=30 SB-TOL=0.0001  MODEL-TYPE=TURBINE
+        118        UTILITY UTILITY-ID=U-12
+        119
+        120    UTILITY U-1 GENERAL
+        121        DESCRIPTION "Cooling Water, Inlet Temp=20 C, Outlet Temp=25 C"
+        122        COST ENERGY-PRICE=2.12E-007 <$/kJ>
+        123        PARAM UTILITY-TYPE=WATER PRES=1. <atm> PRES-OUT=1. <atm>  &
+        124            TIN=20. <C> TOUT=25. <C> CALOPT=FLASH MIN-TAPP=5. <C>  &
+        125            HTC=0.0135 <GJ/hr-sqm-C>
+        126
+        127    UTILITY U-2 GENERAL
+        128        COST ELEC-PRICE=89.
+        129        PARAM UTILITY-TYPE=ELECTRICITY
+        130
+        131    UTILITY U-3 GENERAL
+        132        DESCRIPTION  &
+        133            "Medium Pressure Steam, Inlet Temp=175 C, Outlet Temp=174 C, Pres=127 psia"
+        134        COST ENERGY-PRICE=2.2E-006 <$/kJ>
+        135        PARAM UTILITY-TYPE=STEAM TIN=175. <C> TOUT=174. <C> VFRAC=1.  &
+        136            VFR-OUT=0. CALOPT=FLASH MIN-TAPP=10. <C> CALCCO2=YES  &
+        137            FACTORSOURCE="US-EPA-Rule-E9-5711" FUELSOURCE="Natural_gas"  &
+        138            CO2FACTOR=1.30000000E-4 EFFICIENCY=0.85  &
+        139            HTC=0.0216 <GJ/hr-sqm-C>
+        140
+        141    UTILITY U-4 GENERAL
+        142        DESCRIPTION  &
+        143            "Refrigerant 1 Generation, Inlet Temp=-24 C, Outlet Temp=-25 C"
+        144        COST ENERGY-PRICE=-2.71E-006 <$/kJ>
+        145        PARAM UTILITY-TYPE=REFRIGERATIO COOLING-VALU=4. <kJ/kg>  &
+        146            TIN=-24. <C> TOUT=-25. <C> MIN-TAPP=3. <C> CALCCO2=YES  &
+        147            FACTORSOURCE="US-EPA-Rule-E9-5711" FUELSOURCE="Natural_gas"  &
+        148            CO2FACTOR=1.30000000E-4 EFFICIENCY=-1.  &
+        149            HTC=0.00468 <GJ/hr-sqm-C>
+        150
+        151    UTILITY U-5 GENERAL
+        152        DESCRIPTION  &
+        153            "Refrigerant 2, Inlet Temp=-40 C, Outlet Temp=-39 C"
+        154        COST ENERGY-PRICE=3.36E-006 <$/kJ>
+        155        PARAM UTILITY-TYPE=REFRIGERATIO COOLING-VALU=-1.341 <kJ/kg>  &
+        156            TIN=-40. <C> TOUT=-39. <C> MIN-TAPP=3. <C> CALCCO2=YES  &
+        157            FACTORSOURCE="US-EPA-Rule-E9-5711" FUELSOURCE="Natural_gas"  &
+        158            CO2FACTOR=1.30000000E-4 EFFICIENCY=1.  &
+        159            HTC=0.00468 <GJ/hr-sqm-C>
+        160
+        161    UTILITY U-6 GENERAL
+        162        DESCRIPTION  &
+        163            "Medium Pressure Steam, Inlet Temp=175 C, Outlet Temp=174 C, Pres=127 psia"
+        164        COST ENERGY-PRICE=2.2E-006 <$/kJ>
+        165        PARAM UTILITY-TYPE=STEAM TIN=175. <C> TOUT=174. <C> VFRAC=1.  &
+        166            VFR-OUT=0. CALOPT=FLASH MIN-TAPP=10. <C> CALCCO2=YES  &
+        167            FACTORSOURCE="US-EPA-Rule-E9-5711" FUELSOURCE="Natural_gas"  &
+        168            CO2FACTOR=1.30000000E-4 EFFICIENCY=0.85  &
+        169            HTC=0.0216 <GJ/hr-sqm-C>
+        170
+        171    UTILITY U-7 GENERAL
+        172        DESCRIPTION  &
+        173            "Low Pressure Steam, Inlet Temp=125 C, Outlet Temp=124 C"
+        174        COST ENERGY-PRICE=1.9E-006 <$/kJ>
+        175        PARAM UTILITY-TYPE=STEAM TIN=125. <C> TOUT=124. <C> VFRAC=1.  &
+        176            VFR-OUT=0. CALOPT=FLASH MIN-TAPP=10. <C> CALCCO2=YES  &
+        177            FACTORSOURCE="US-EPA-Rule-E9-5711" FUELSOURCE="Natural_gas"  &
+        178            CO2FACTOR=1.30000000E-4 EFFICIENCY=0.85  &
+        179            HTC=0.0216 <GJ/hr-sqm-C>
+        180
+        181    UTILITY U-8 GENERAL
+        182        DESCRIPTION  &
+        183            "High Pressure Steam, Inlet Temp=250 C, Outlet Temp=249 C, Pres=572 psia"
+        184        COST ENERGY-PRICE=2.5E-006 <$/kJ>
+        185        PARAM UTILITY-TYPE=STEAM TIN=250. <C> TOUT=249. <C> VFRAC=1.  &
+        186            VFR-OUT=0. CALOPT=FLASH MIN-TAPP=10. <C> CALCCO2=YES  &
+        187            FACTORSOURCE="US-EPA-Rule-E9-5711" FUELSOURCE="Natural_gas"  &
+        188            CO2FACTOR=1.30000000E-4 EFFICIENCY=0.85  &
+        189            HTC=0.0216 <GJ/hr-sqm-C>
+        190
+        191    UTILITY U-9 GENERAL
+        192        DESCRIPTION  &
+        193            "Medium Pressure Steam, Inlet Temp=175 C, Outlet Temp=174 C, Pres=127 psia"
+        194        COST ENERGY-PRICE=2.2E-006 <$/kJ>
+        195        PARAM UTILITY-TYPE=STEAM TIN=175. <C> TOUT=174. <C> VFRAC=1.  &
+        196            VFR-OUT=0. CALOPT=FLASH MIN-TAPP=10. <C> CALCCO2=YES  &
+        197            FACTORSOURCE="US-EPA-Rule-E9-5711" FUELSOURCE="Natural_gas"  &
+        198            CO2FACTOR=1.30000000E-4 EFFICIENCY=0.85  &
+        199            HTC=0.0216 <GJ/hr-sqm-C>
+        200
+        201    UTILITY U-10 GENERAL
+        202        DESCRIPTION "Cooling Water, Inlet Temp=20 C, Outlet Temp=25 C"
+        203        COST ENERGY-PRICE=2.12E-007 <$/kJ>
+        204        PARAM UTILITY-TYPE=WATER PRES=1. <atm> PRES-OUT=1. <atm>  &
+        205            TIN=20. <C> TOUT=25. <C> CALOPT=FLASH MIN-TAPP=5. <C>  &
+        206            HTC=0.0135 <GJ/hr-sqm-C>
+        207
+        208    UTILITY U-11 GENERAL
+        209        DESCRIPTION  &
+        210            "High Pressure Steam, Inlet Temp=250 C, Outlet Temp=249 C, Pres=572 psia"
+        211        COST ENERGY-PRICE=2.5E-006 <$/kJ>
+        212        PARAM UTILITY-TYPE=STEAM TIN=250. <C> TOUT=249. <C> VFRAC=1.  &
+        213            VFR-OUT=0. CALOPT=FLASH MIN-TAPP=10. <C> CALCCO2=YES  &
+        214            FACTORSOURCE="US-EPA-Rule-E9-5711" FUELSOURCE="Natural_gas"  &
+        215            CO2FACTOR=1.30000000E-4 EFFICIENCY=0.85  &
+        216            HTC=0.0216 <GJ/hr-sqm-C>
+        217
+        218    UTILITY U-12 GENERAL
+        219        DESCRIPTION "Electrical Utility"
+        220        COST ELEC-PRICE=0.0775
+        221        PARAM UTILITY-TYPE=ELECTRICITY CALCCO2=YES FACTORSOURCE= &
+        222            "US-EPA-Rule-E9-5711" FUELSOURCE="Natural_gas"  &
+        223            CO2FACTOR=1.30000000E-4 EFFICIENCY=0.58
+        224
+        225    DESIGN-SPEC H2RATE
+        226        DEFINE H2MOLE MOLE-FLOW STREAM=3 SUBSTREAM=MIXED  &
+        227            COMPONENT=H2 UOM="lbmol/hr"
+        228        DEFINE BZMOLE MOLE-FLOW STREAM=3 SUBSTREAM=MIXED  &
+        229            COMPONENT=BZ UOM="lbmol/hr"
+        230        SPEC "H2MOLE" TO "3.3*BZMOLE"
+        231        TOL-SPEC "0.001*BZMOLE"
+        232        VARY STREAM-VAR STREAM=1 SUBSTREAM=MIXED VARIABLE=MOLE-FLOW  &
+        233            UOM="lbmol/hr"
+        234        LIMITS "250" "350"
+        235
+        236    EO-CONV-OPTI
+        237
+        238    CONVERGENCE CV WEGSTEIN
+        239        TEAR 3
+        240
+        241    STREAM-REPOR MOLEFLOW
+        242    ;
+        243    ;
+        244    ;
+        245    ;
+        246    ;
+
+   SIMULATION STARTED     MODULE USED: apmain  
+   LOCATED IN:C:\Program Files (x86)\AspenTech\Aspen Plus V10.0\Engine\\xeq

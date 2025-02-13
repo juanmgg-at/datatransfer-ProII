@@ -41,7 +41,7 @@ namespace DataExtractionNamespace
         { 4, new Dictionary<string, string>
             {
                 //Valves (CQ00746645)
-                { "206", "Valve" }
+                { "325", "Valve" }
             }
         },
 
@@ -49,11 +49,11 @@ namespace DataExtractionNamespace
         { 5, new Dictionary<string, string>
             {
                 // Simple Shell&Tube (CQ00730631)
-                { "305", "HeatExchanger" },
+                { "354", "HeatExchanger" },
 
                 // Simple Shell&Tube (CQ00730631) Use with Detailed
                 // The order matters, Detailed goes second, otherwise test will fail. It has to do with the order of attributes in baseline
-                { "243", "HeatExchanger" },
+                { "490", "HeatExchanger" },
 
             }
         },
@@ -62,7 +62,7 @@ namespace DataExtractionNamespace
         { 6, new Dictionary<string, string>
             {
                 // Rigorous Shell&Tube (CQ00746228)
-                { "377", "HeatExchanger" }
+                { "424", "HeatExchanger" }
             }
         },
 
@@ -70,7 +70,7 @@ namespace DataExtractionNamespace
         { 71, new Dictionary<string, string>
             {
                 // Heat Curves (CQ00747072) Hot Side
-                { "466", "HeatingCoolingCurve" },
+                { "573", "HeatingCoolingCurve" },
             }
         },
 
@@ -78,7 +78,7 @@ namespace DataExtractionNamespace
         { 72, new Dictionary<string, string>
             {
                 // Heat Curves (CQ00747072) Cold Side
-                { "468", "HeatingCoolingCurve" }
+                { "575", "HeatingCoolingCurve" }
             }
         },
 
@@ -86,10 +86,10 @@ namespace DataExtractionNamespace
         { 8, new Dictionary<string, string>
             {
                 // Simple Plate Heat Exchanger (CQ00749672)
-                { "517", "HeatExchanger" },
+                { "781", "HeatExchanger" },
                 // Simple Plate Heat Exchanger (CQ00749672) Use with Detailed
                  // The order matters, Detailed goes second, otherwise test will fail. It has to do with the order of attributes in baseline
-                { "582", "HeatExchanger" },
+                { "844", "HeatExchanger" },
 
             }
         },
@@ -98,7 +98,7 @@ namespace DataExtractionNamespace
         { 9, new Dictionary<string, string>
             {
                 // Rigorous Plate Heat Exchanger (CQ00748791)
-                { "631", "HeatExchanger" }
+                { "726", "HeatExchanger" }
             }
         },
 
@@ -106,7 +106,7 @@ namespace DataExtractionNamespace
         { 10, new Dictionary<string, string>
             {
                 // Simple AirCooledExchanger (CQ00749670)
-                { "686", "AirCooledExchanger" },
+                { "893", "AirCooledExchanger" },
 
             }
         },
@@ -115,7 +115,7 @@ namespace DataExtractionNamespace
         { 11, new Dictionary<string, string>
             {
                 // Rigorous AirCooledExchanger (CQ00745140)
-                { "755", "AirCooledExchanger" }
+                { "962", "AirCooledExchanger" }
             }
         },
 
@@ -123,24 +123,24 @@ namespace DataExtractionNamespace
         { 12, new Dictionary<string, string>
             {
                 // Compressor (CQ00744509)
-                { "805", "Compressor" },
+                { "1012", "Compressor" },
                 // Compressor Curves (CQ00749608)
-                { "862", "CurveData" },
-                { "863", "CurveData" },
-                { "864", "CurveData" },
-                { "865", "CurveData" },
-                { "866", "CurveData" },
-                { "867", "CurveData" }
+                { "1069", "CurveData" },
+                { "1070", "CurveData" },
+                { "1071", "CurveData" },
+                { "1072", "CurveData" },
+                { "1073", "CurveData" },
+                { "1074", "CurveData" }
             }
         },
 
         // 13. MCompressor
         { 13, new Dictionary<string, string>
             {
-                // MCompressor (CQ00749678)
-                { "891", "CompressorStage" },
-                { "892", "CompressorStage" },
-                { "893", "CompressorStage" }
+                // MCompressor (CQ00749678) Use Stage object OIDs
+                { "1098", "CompressorStage" },
+                { "1099", "CompressorStage" },
+                { "1100", "CompressorStage" }
             }
         },
 
@@ -148,7 +148,7 @@ namespace DataExtractionNamespace
         { 14, new Dictionary<string, string>
             {
                 // Expander (CQ00744509)
-                { "916", "Compressor" }
+                { "1123", "Compressor" }
             }
         },
 
@@ -159,11 +159,11 @@ namespace DataExtractionNamespace
 
                 //Keep this order, otherwise test will fail
                 // Streams (CQ00741379) ICPEbegin-1.apwz
-                { "953", "PipingSystem" },
+                { "1160", "PipingSystem" },
                 // Streams (CQ00741379) Aspen_Plus_Scaling_Model_BaCO3_CO2_H2O.bkp
-                { "973", "PipingSystem" },
+                { "1180", "PipingSystem" },
                 // Streams (CQ00741379) 161639.bkp
-                { "1059", "PipingSystem" }
+                { "1198", "PipingSystem" }
             }
         },
 
@@ -172,9 +172,9 @@ namespace DataExtractionNamespace
             {
                 // Vessels (CQ00748800)
                 //Inlet 1
-                { "1075", "Port" },
+                { "1214", "Port" },
                 //Inlet 2
-                { "1093", "Port" },
+                { "1232", "Port" },
 
             }
         },

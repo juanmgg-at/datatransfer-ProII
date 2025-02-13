@@ -49,7 +49,7 @@ namespace DataExtractionNamespace
             //{ "MCompressor", 13 }, // simulation runs with errors, it doesn't affect the transfer though
             //{ "Expander", 14 },
             //{ "Streams", 15 },
-            //{ "Vessels", 16 },
+            { "Vessels", 16 },
             //{ "Utility", 17 },
             //{ "Column", 18 }
 
@@ -87,7 +87,7 @@ namespace DataExtractionNamespace
             //{"Vapor Phase", 47},
             //{"Distillation Columns and Trays", 48},
             //{"Mixer", 49},
-            {"Splitter", 50},
+            //{"Splitter", 50},
             
 
             // Thermal Design Only 
