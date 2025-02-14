@@ -41,7 +41,7 @@ namespace DataExtractionNamespace
         { 4, new Dictionary<string, string>
             {
                 //Valves (CQ00746645)
-                { "325", "Valve" }
+                { "2654", "Valve" }
             }
         },
 
@@ -70,7 +70,7 @@ namespace DataExtractionNamespace
         { 71, new Dictionary<string, string>
             {
                 // Heat Curves (CQ00747072) Hot Side
-                { "573", "HeatingCoolingCurve" },
+                { "2704", "HeatingCoolingCurve" },
             }
         },
 
@@ -78,7 +78,7 @@ namespace DataExtractionNamespace
         { 72, new Dictionary<string, string>
             {
                 // Heat Curves (CQ00747072) Cold Side
-                { "575", "HeatingCoolingCurve" }
+                { "2706", "HeatingCoolingCurve" }
             }
         },
 
@@ -159,11 +159,11 @@ namespace DataExtractionNamespace
 
                 //Keep this order, otherwise test will fail
                 // Streams (CQ00741379) ICPEbegin-1.apwz
-                { "1160", "PipingSystem" },
+                { "2753", "PipingSystem" },
                 // Streams (CQ00741379) Aspen_Plus_Scaling_Model_BaCO3_CO2_H2O.bkp
-                { "1180", "PipingSystem" },
+                { "2773", "PipingSystem" },
                 // Streams (CQ00741379) 161639.bkp
-                { "1198", "PipingSystem" }
+                { "2791", "PipingSystem" }
             }
         },
 
@@ -171,10 +171,12 @@ namespace DataExtractionNamespace
         { 16, new Dictionary<string, string>
             {
                 // Vessels (CQ00748800)
+
+            
                 //Inlet 1
-                { "1214", "Port" },
+                { "1325", "Port" },
                 //Inlet 2
-                { "1232", "Port" },
+                { "1343", "Port" },
 
             }
         },
@@ -183,20 +185,20 @@ namespace DataExtractionNamespace
         { 17, new Dictionary<string, string>
             {
                 // Utility (CQ00751155) Pump-Eletricity.bkp
-                { "1151", "Pump" },
+                { "1936", "Pump" },
                 // Utility (CQ00751155) Separator-Stream.bkp
-                { "1190", "Separator" },
+                { "1975", "Separator" },
                 //// Utility (CQ00751155) Compressor-Utility.bkp
-                { "1249", "Compressor" },
+                { "2034", "Compressor" },
                 //// Utility (CQ00751155) AirCooler-Cooler_Utility.bkp
-                { "1281", "AirCooledExchanger" }, // It fails
+                { "1854", "AirCooledExchanger" }, // It fails in ElectricityUsage
                 //// Utility (CQ00751155) HeaterCooler_Utility.bkp
-                { "1331", "HeaterCooler" },
+                { "1835", "HeaterCooler" },
                 //// Utility (CQ00751155) Column_Utility.bkp  1394
-                { "1351", "Condenser" },
-                { "1376", "Reboiler" },
+                { "1380", "Condenser" },
+                { "1405", "Reboiler" },
                 //// Utility (CQ00751155) Expander-Electricity.bkp
-                { "1767", "Compressor" }
+                { "1796", "Compressor" }
             }
         },
 
@@ -204,15 +206,15 @@ namespace DataExtractionNamespace
         { 18, new Dictionary<string, string>
             {
                 // Columns (CQ00748801 & CQ00748804) AbeAdsDistillation, PumpAround,  AbeAdsDistillationStage
-                { "1806", "Distillation" },
+                { "4436", "Distillation" },
 
                 // Columns (CQ00748801 & CQ00748804) ABEAdsColumnSection, ABEAdsColumnTrays, ABEAdsColumnPacking
-                { "2244", "ColumnSection" },
-                { "2337", "ColumnSection" },
+                { "4874", "ColumnSection" },
+                { "4967", "ColumnSection" },
 
                 // Columns (CQ00748801 & CQ00748804) T-2.Condenser T-2.Reboiler
-                { "1807", "Condenser" },
-                { "1832", "Reboiler" }
+                { "4437", "Condenser" },
+                { "4462", "Reboiler" }
             }
 
         },

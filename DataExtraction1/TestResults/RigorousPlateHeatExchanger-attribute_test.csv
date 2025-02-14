@@ -1,0 +1,13 @@
+﻿Oid,ClassName,Name,Value,Baseline,Units,IsSame
+726,HeatExchanger,ColdPressureIn,199999.999682553,199999.9997,Pa,✔
+726,HeatExchanger,ColdPressureOut,196748.843529552,196748.8437,Pa,✔
+726,HeatExchanger,ColdTemperatureIn,283.150002,283.150002,K,✔
+726,HeatExchanger,ColdTemperatureOut,335.35541114333,335.3553923,K,✔
+726,HeatExchanger,HotPressureIn,199999.999682553,199999.9997,Pa,✔
+726,HeatExchanger,HotPressureOut,183174.848340868,183174.8482,Pa,✔
+726,HeatExchanger,HotTemperatureIn,363.150001111111,363.1500011,K,✔
+726,HeatExchanger,HotTemperatureOut,343.39940313096,343.3994106,K,✔
+726,HeatExchanger,LogMeanTemperatureDifferenceCorrected,41.7701318333334,41.77011556,K,✔
+726,HeatExchanger,UA,12437.2737548591,12437.27398,W/K,✔
+726,HeatExchanger,Duty,519506.565257964,519506.3718,W,✖
+Test Summary: Fail, Number of Fails: 1

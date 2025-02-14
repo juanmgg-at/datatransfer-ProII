@@ -1,0 +1,27 @@
+﻿Oid,ClassName,Name,Value,Baseline,Units,IsSame
+2654,Valve,CavitationIndex,3.80768705942795,3.80784237909826,,✔
+2654,Valve,ChokeStatus,3,3,,✔
+2654,Valve,PressureDrop,876258.344959889,876258.344962775,Pa,✔
+2654,Valve,PressureIn,3447378.64658418,3447378.64658418,Pa,✔
+2654,Valve,PressureOut,2571120.30162429,2571120.30162141,Pa,✔
+2654,Valve,PressureOutChoked,2520910.47276813,2520915.57021669,Pa,✖
+2654,Valve,PressureRecoveryFactor,0.93,0.93,,✔
+2654,Valve,TemperatureIn,349.816666666667,349.816666666667,K,✔
+2654,Valve,TemperatureOut,341.956747348864,341.957277492999,K,✔
+2654,Valve,ValveFlowCoefficient,86,86,,✔
+2654,Valve,ValvePercentOpening,0.5,0.5,unitless,✔
+2654,Valve,VaporMoleFractionOut,0.288172426534114,0.288188400248525,fraction,✔
+2654,Valve,VolumetricFlowIn,0.0985972628717811,0.0985972628717811,m^3/s,✔
+2654,Valve,Ports.Outlet.Liquid1MassDensity,421.072712017651,421.072079408426,kg/m^3,✔
+2654,Valve,MassFlowIn,37.7993641666668,37.7993641666668,kg/s,✔
+2654,Valve,MassFlowOut,37.7993641666668,37.7993641666668,kg/s,✔
+2654,Valve,MoleFlowIn,0.843776037327736,0.843776037327736,kmol/s,✔
+2654,Valve,MoleFlowOut,0.843776037327736,0.843776037327736,kmol/s,✔
+2654,Valve,OutletVaporDensity,48.8467510885472,48.8469565198361,kg/m^3,✔
+2654,Valve,OutletVaporMolecularWeight,40.283561878742,40.2837387336967,g/mol,✔
+N/A,Valve,OutletVaporHeatCapacity,N/A,1.34832114274625,,✖,Missing
+N/A,Valve,Ports.Outlet.VaporHeatCapacityRatio,N/A,1.34832114274625,,✖,Missing
+N/A,Valve,Ports.Outlet.LiquidViscosity,N/A,9.81971325715517E-05,(N/m^2).s,✖,Missing
+N/A,Valve,Ports.Outlet.VaporCompressibility,N/A,0.745788272807661,unitless,✖,Missing
+N/A,Valve,OutletVaporViscosity,N/A,9.76966555346585E-06,(N/m^2).s,✖,Missing
+Test Summary: Fail, Number of Fails: 6

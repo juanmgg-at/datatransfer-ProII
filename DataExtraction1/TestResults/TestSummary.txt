@@ -1,4 +1,17 @@
 Test Summary Report
-Total Sheets Compared: 1
+Total Sheets Compared: 19
 --------------------------------------------------
-Sheet: Vessels, Number of Fails: 27
+Sheet: Heater & Heat Exchanger Side, Number of Fails: 1
+Sheet: Valves, Number of Fails: 6
+Sheet: SimpleShell&TubeHeatExchanger, Number of Fails: 4
+Sheet: RigorousShell&TubeHeatExchanger, Number of Fails: 4
+Sheet: Heat Curves Hot Side, Number of Fails: 47
+Sheet: Heat Curves Cold Side, Number of Fails: 20
+Sheet: SimplePlateHeatExchanger, Number of Fails: 2
+Sheet: RigorousPlateHeatExchanger, Number of Fails: 1
+Sheet: RigorousAirCooledExchanger, Number of Fails: 20
+Sheet: MCompressor, Number of Fails: 6
+Sheet: Expander, Number of Fails: 1
+Sheet: Vessels, Number of Fails: 1
+Sheet: Utility, Number of Fails: 3
+Sheet: Column, Number of Fails: 1

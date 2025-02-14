@@ -1,0 +1,17 @@
+﻿Oid,ClassName,Name,Value,Baseline,Units,IsSame
+1123,Compressor,BrakeHorsePower,-34855.0062393941,-34855.0004975051,W,✔
+1123,Compressor,CompressibiltyIn,0.974058372,0.974058357,unitless,✔
+1123,Compressor,CompressibiltyOut,0.985816068,0.985816061,unitless,✔
+1123,Compressor,EnthalpyFlowIn,-3518487.92176262,-3518487.922,J/kg,✔
+1123,Compressor,EnthalpyFlowOut,-3690522.55287549,-3690522.676,J/kg,✖
+1123,Compressor,IsentropicEfficiency,0.741162426,0.741162406,unitless,✔
+1123,Compressor,MassFlowIn,0.302394913333334,0.302394913,kg/s,✔
+1123,Compressor,MassFlowOut,0.302394913333334,0.302394913,kg/s,✔
+1123,Compressor,MechanicalEfficiency,0.67,0.67,unitless,✔
+1123,Compressor,MolarFlowIn,0.0149324745128055,0.014932475,kmol/s,✔
+1123,Compressor,MolarFlowOut,0.0149324745128055,0.014932475,kmol/s,✔
+1123,Compressor,PressureDrop,3172188.09532059,3172188.109,Pa,✔
+1123,Compressor,PressureOut,964666.280580424,964666.2668,Pa,✔
+1123,Compressor,TemperatureOut,373.232652777778,373.2326,K,✔
+1123,Compressor,VolumetricFlowOut,0.0473540866767211,0.04735408,m^3/s,✔
+Test Summary: Fail, Number of Fails: 1

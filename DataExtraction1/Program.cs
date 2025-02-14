@@ -62,7 +62,7 @@ namespace DataExtractionNamespace
                     bool isString = attr.Value is string && attr.Value != "";
                     bool isValid = isNumber || isString;
 
-                    //if (!isValid) continue;
+                    if (!isValid) continue;
 
                     string keyId = $"{sheetName}|{className}|{attributeName}";
 
