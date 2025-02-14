@@ -520,43 +520,43 @@ namespace DataExtractionNamespace
        
 
 
-            //// 43. AirCooled
-            //{43, new Dictionary<string, string>
-            //{
-            //    // Condenser_MultipleService1_AirCooled.EDR
-            //    {"613", "AirCooledExchanger" },
-            //    // Hydrocarbon-DryAir_DesFixAir_AirCooled
-            //    {"662", "AirCooledExchanger" },
-            //    // OilCooler_MultipleService2_AirCooled
-            //    {"710", "AirCooledExchanger" }
-            //}
-            //},
+            // 51. AirCooled
+            {51, new Dictionary<string, string>
+            {
+                // Condenser_MultipleService1_AirCooled.EDR
+                {"11", "AirCooledExchanger" },
+                // Hydrocarbon-DryAir_DesFixAir_AirCooled
+                {"", "AirCooledExchanger" },
+                //// OilCooler_MultipleService2_AirCooled
+                {"", "AirCooledExchanger" }
+            }
+            },
 
-            //{44, new Dictionary<string, string>
-            //{
+            {52, new Dictionary<string, string>
+            {
 
-            //    // Condenser_DesignGivenPlate_PlateFrame.EDR
-            //    {"754", "HeatExchanger" },
-            //    //Steam-Water_Simulation_PlateFrame
-            //    {"789", "HeatExchanger" },
-            //    //Water_Water_Design_PlateFrame
-            //    {"819", "HeatExchanger" },
-            //}
+                // Condenser_DesignGivenPlate_PlateFrame.EDR
+                {"1", "HeatExchanger" },
+                //Steam-Water_Simulation_PlateFrame
+                {"2", "HeatExchanger" },
+                //Water_Water_Design_PlateFrame
+                {"3", "HeatExchanger" },
+            }
 
-            //},
+            },
 
 
-            //{45, new Dictionary<string, string>
-            //{
-            //    //ForcedVaporizer_BEM.EDR
-            //    {"849", "HeatExchanger" },
-            //    //Ts-KnockbackConsenser-Vetical_AEL
-            //    {"922", "HeatExchanger" },
-            //    //TS-Thermosiphon-Vertical_BEM
-            //    {"997", "HeatExchanger" },
-            //}
+            {53, new Dictionary<string, string>
+            {
+                //ForcedVaporizer_BEM.EDR
+                {"4", "HeatExchanger" },
+                //Ts-KnockbackConsenser-Vetical_AEL
+                {"5", "HeatExchanger" },
+                //TS-Thermosiphon-Vertical_BEM
+                {"6", "HeatExchanger" },
+            }
 
-            //}
+            }
 
 
 

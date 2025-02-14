@@ -9,7 +9,7 @@ namespace DataExtractionNamespace
 
     public static class Environment
     {
-        public const string WorkspaceName = "A1";
+        public const string WorkspaceName = "A3";
         public const string BusinessServer = "ABE-Automation.qae.aspentech.com";
 
         
@@ -21,11 +21,10 @@ namespace DataExtractionNamespace
         // Modify this path to our repository path
 
         public const string pathToStoreFiles = @"C:\Users\gutierrj\source\repos\datatransfer-ProII\DataExtraction1\";
-
         
 
-
-        public const string baselinePathFile = pathToStoreFiles + "baseline.xlsx";
+        //public const string baselinePathFile = pathToStoreFiles + "baseline.xlsx";
+        public const string baselinePathFile = pathToStoreFiles + "baseline-thermal-design.xlsx";
 
         // The order here has to be the same as the order in TestCases
         public static readonly Dictionary<string, int> TitleToTestId = new Dictionary<string, int>
@@ -33,25 +32,25 @@ namespace DataExtractionNamespace
             // A+ only
             // DO NOT DELETE THIS AND KEEP THE SAME ORDER
             // Uncomment what you want to test
-            { "Pump & Pump Curves", 1 },
-            { "Heater & Heat Exchanger Side", 2 },
-            { "Separator", 3 },
-            { "Valves", 4 },
-            { "SimpleShell&TubeHeatExchanger", 5 },
-            { "RigorousShell&TubeHeatExchanger", 6 },
-            { "Heat Curves Hot Side", 71 },
-            { "Heat Curves Cold Side", 72 },
-            { "SimplePlateHeatExchanger", 8 },
-            { "RigorousPlateHeatExchanger", 9 },
-            { "SimpleAirCooledExchanger", 10 },
-            { "RigorousAirCooledExchanger", 11 }, // Pending until defect is fixed
-            { "Compressor & Compressor Curves", 12 },
-            { "MCompressor", 13 }, // simulation runs with errors, it doesn't affect the transfer though
-            { "Expander", 14 },
-            { "Streams", 15 },
-            { "Vessels", 16 },
-            { "Utility", 17 },
-            { "Column", 18 }
+            //{ "Pump & Pump Curves", 1 },
+            //{ "Heater & Heat Exchanger Side", 2 },
+            //{ "Separator", 3 },
+            //{ "Valves", 4 },
+            //{ "SimpleShell&TubeHeatExchanger", 5 },
+            //{ "RigorousShell&TubeHeatExchanger", 6 },
+            //{ "Heat Curves Hot Side", 71 },
+            //{ "Heat Curves Cold Side", 72 },
+            //{ "SimplePlateHeatExchanger", 8 },
+            //{ "RigorousPlateHeatExchanger", 9 },
+            //{ "SimpleAirCooledExchanger", 10 },
+            //{ "RigorousAirCooledExchanger", 11 }, // Pending until defect is fixed
+            //{ "Compressor & Compressor Curves", 12 },
+            //{ "MCompressor", 13 }, // simulation runs with errors, it doesn't affect the transfer though
+            //{ "Expander", 14 },
+            //{ "Streams", 15 },
+            //{ "Vessels", 16 },
+            //{ "Utility", 17 },
+            //{ "Column", 18 }
 
             //HYSYS only
             //{ "Pump & Pump Curves", 19 },
@@ -93,9 +92,9 @@ namespace DataExtractionNamespace
             // Thermal Design Only 
 
 
-            //{"AirCooled", 43 },
-            //{"Plate", 44 },
-            //{"Shell&Tube", 45 },
+            {"AirCooled", 51 },
+            //{"Plate", 52 },
+            //{"Shell&Tube", 53 },
 
         };
 
