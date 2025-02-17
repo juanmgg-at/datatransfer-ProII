@@ -1,4 +1,3 @@
 Test Summary Report
 Total Sheets Compared: 1
 --------------------------------------------------
-Sheet: MCompressor, Number of Fails: 20

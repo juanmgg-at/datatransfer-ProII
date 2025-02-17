@@ -384,7 +384,7 @@ namespace DataExtractionNamespace
         { 35, new Dictionary<string, string>
             {
                 // Multi-Compressors(CQ00730640)
-                { "2262", "Compressor" },
+                { "2535", "Compressor" },
                 //{ "1481", "CompressorStage" },
                 //{ "1482", "CompressorStage" }
             }
