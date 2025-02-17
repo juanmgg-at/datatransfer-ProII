@@ -241,16 +241,16 @@ namespace DataExtractionNamespace
         // 21. Multimapping-HXHotSide
         { 21, new Dictionary<string, string>
             {
-                // Multimapping-HX (CQ00747904) Hot Side
-                { "175", "HeatingCoolingCurve" },
+                // Multimapping-HX (CQ00747904) Hot Side -> FluidProfile 
+                { "136", "HeatingCoolingCurve" },
             }
         },
 
         // Multimapping-HXColdSide
         { 22, new Dictionary<string, string>
             {
-                // Multimapping-HX (CQ00747904) Cold Side
-                { "154", "HeatingCoolingCurve" }
+                // Multimapping-HX (CQ00747904) Cold Side -> FluidProfile 
+                { "114", "HeatingCoolingCurve" }
             }
         },
 
@@ -258,7 +258,7 @@ namespace DataExtractionNamespace
         { 23, new Dictionary<string, string>
             {
                 // Seperator (CQ00746648)
-                { "247", "Separator" }
+                { "209", "Separator" }
             }
         },
 
@@ -266,7 +266,7 @@ namespace DataExtractionNamespace
         { 24, new Dictionary<string, string>
             {
                 // Vavle (CQ00746646)
-                { "342", "Valve" }
+                { "307", "Valve" }
             }
         },
 
@@ -274,7 +274,7 @@ namespace DataExtractionNamespace
         { 25, new Dictionary<string, string>
             {
                 // SimpleShell&TubeHE (CQ00748796)
-                { "400", "HeatExchanger" },
+                { "348", "HeatExchanger" },
 
 
             }
@@ -284,8 +284,7 @@ namespace DataExtractionNamespace
         { 26, new Dictionary<string, string>
             {
                 // RigorousShell&TubeHE (CQ00746225)
-                { "383", "HeatExchanger" },
-
+                { "418", "HeatExchanger" },
 
             }
         },
@@ -294,7 +293,7 @@ namespace DataExtractionNamespace
         { 27, new Dictionary<string, string>
             {
                 // RigorousAirCooledHexchanger (CQ00745132)
-                { "516", "AirCooledExchanger" },
+                { "489", "AirCooledExchanger" },
 
             }
         },
@@ -302,16 +301,16 @@ namespace DataExtractionNamespace
         // 28. HeatCurvesHot
         { 28, new Dictionary<string, string>
             {
-                // HeatCurves (CQ00747073) Hot Side
-                { "596", "HeatingCoolingCurve" },
+                // HeatCurves (CQ00747073) Hot Side -> FluidProfile 
+                { "571", "HeatingCoolingCurve" },
             }
         },
 
         // 29. HeatCurvesCold
         { 29, new Dictionary<string, string>
             {
-                // HeatCurves (CQ00747073) Cold Side
-                { "604", "HeatingCoolingCurve" }
+                // HeatCurves (CQ00747073) Cold Side -> FluidProfile 
+                { "579", "HeatingCoolingCurve" }
             }
         },
 
@@ -319,14 +318,14 @@ namespace DataExtractionNamespace
         { 30, new Dictionary<string, string>
             {
                 // Compressor (CQ00744505)
-                { "2622", "Compressor" },
+                { "620", "Compressor" },
                 // Compressor Curves (CQ00744505)
-                { "2633", "CurveData" },
-                { "2634", "CurveData" },
-                { "2635", "CurveData" },
-                { "2636", "CurveData" },
-                { "2637", "CurveData" },
-                { "2638", "CurveData" },
+                { "631", "CurveData" },
+                { "632", "CurveData" },
+                { "633", "CurveData" },
+                { "634", "CurveData" },
+                { "635", "CurveData" },
+                { "636", "CurveData" },
 
             }
         },
@@ -335,7 +334,7 @@ namespace DataExtractionNamespace
         { 31, new Dictionary<string, string>
             {
                 // Expander (CQ00748768)
-                { "1124", "Expander" }
+                { "653", "Expander" }
             }
         },
 
@@ -345,7 +344,7 @@ namespace DataExtractionNamespace
 
 
                 // Stream (CQ00730633) Uswe MaterialPort-Inlet OID
-                { "1160", "PipingSystem" },
+                { "690", "PipingSystem" },
 
             }
         },
@@ -356,7 +355,7 @@ namespace DataExtractionNamespace
             {
                 // Vessels
                 //Inlet 1
-                { "1209", "Port" },
+                { "710", "Port" },
 
             }
         },
@@ -365,19 +364,19 @@ namespace DataExtractionNamespace
         { 34, new Dictionary<string, string>
             {
                 // Pump-Utility
-                { "1226", "Pump" },
+                { "758", "Pump" },
                 // Seperator-Utility
-                { "1266", "PipingSystem" },
+                { "800", "PipingSystem" },
                 //// Compressor Curve-Utility
-                { "1271", "PipingSystem" },
+                { "805", "PipingSystem" },
                 //// Deep Cut Turbo-Expander-Utility
-                { "1276", "PipingSystem" },
+                { "810", "PipingSystem" },
                 //// Acid Gas Cleaning Using MDEA-Utility
-                { "1288", "PipingSystem" },
+                { "817", "PipingSystem" },
                 //// Heater_Cooler-Utility
-                { "1293", "PipingSystem" },
+                { "822", "PipingSystem" },
                 //Heater_Cooler-Utility
-                { "1295", "PipingSystem" },
+                { "827", "PipingSystem" },
             }
         },
 
@@ -385,25 +384,35 @@ namespace DataExtractionNamespace
         { 35, new Dictionary<string, string>
             {
                 // Multi-Compressors(CQ00730640)
-                { "1084", "Compressor" },
+                { "2262", "Compressor" },
                 //{ "1481", "CompressorStage" },
                 //{ "1482", "CompressorStage" }
             }
         },
 
-        // 36. ColumnMainTS
+        // 36. ColumnMainTS, use AbeAdsDistillation classview 
         { 36, new Dictionary<string, string>
             {
 
             // Tray Section, Trays, Column Section 
-            { "1304", "TraySection" },
-            { "2279", "ColumnSection" },
+            { "833", "TraySection" }, // Use main object OID
+            { "1852", "ColumnSection" }, // In ColumnSections
         }
 
         },
 
-        // 37. HeaterCooler
+          // 37. ColumnTS1, use AbeAdsDistillation classview 
         { 37, new Dictionary<string, string>
+            {
+            //TS-1 
+            { "1297", "ColumnSection" }, // In ColumnSections
+
+            }
+        },
+
+
+        // 38. HeaterCooler
+        { 38, new Dictionary<string, string>
             {
 
             { "112", "HeaterCooler" },
@@ -412,16 +421,11 @@ namespace DataExtractionNamespace
             }
         },
 
-        // 38. ColumnTS1
-        { 38, new Dictionary<string, string>
-            {
+      
 
 
-            //TS-1 
-            { "1748", "ColumnSection" },
 
-            }
-        },
+        // ProII 
 
         // 39. Simple HX
         { 39, new Dictionary<string, string>
@@ -517,46 +521,45 @@ namespace DataExtractionNamespace
 
          },
 
-       
 
 
-            // 51. AirCooled
-            {51, new Dictionary<string, string>
-            {
-                // Condenser_MultipleService1_AirCooled.EDR
-                {"11", "AirCooledExchanger" },
-                // Hydrocarbon-DryAir_DesFixAir_AirCooled
-                {"", "AirCooledExchanger" },
-                //// OilCooler_MultipleService2_AirCooled
-                {"", "AirCooledExchanger" }
-            }
-            },
+            //// 51. AirCooled
+            //{51, new Dictionary<string, string>
+            //{
+            //    // Condenser_MultipleService1_AirCooled.EDR
+            //    {"11", "AirCooledExchanger" },
+            //    // Hydrocarbon-DryAir_DesFixAir_AirCooled
+            //    {"", "AirCooledExchanger" },
+            //    //// OilCooler_MultipleService2_AirCooled
+            //    {"", "AirCooledExchanger" }
+            //}
+            //},
 
-            {52, new Dictionary<string, string>
-            {
+            //{52, new Dictionary<string, string>
+            //{
 
-                // Condenser_DesignGivenPlate_PlateFrame.EDR
-                {"1", "HeatExchanger" },
-                //Steam-Water_Simulation_PlateFrame
-                {"2", "HeatExchanger" },
-                //Water_Water_Design_PlateFrame
-                {"3", "HeatExchanger" },
-            }
+            //    // Condenser_DesignGivenPlate_PlateFrame.EDR
+            //    {"1", "HeatExchanger" },
+            //    //Steam-Water_Simulation_PlateFrame
+            //    {"2", "HeatExchanger" },
+            //    //Water_Water_Design_PlateFrame
+            //    {"3", "HeatExchanger" },
+            //}
 
-            },
+            //},
 
 
-            {53, new Dictionary<string, string>
-            {
-                //ForcedVaporizer_BEM.EDR
-                {"4", "HeatExchanger" },
-                //Ts-KnockbackConsenser-Vetical_AEL
-                {"5", "HeatExchanger" },
-                //TS-Thermosiphon-Vertical_BEM
-                {"6", "HeatExchanger" },
-            }
+            //{53, new Dictionary<string, string>
+            //{
+            //    //ForcedVaporizer_BEM.EDR
+            //    {"4", "HeatExchanger" },
+            //    //Ts-KnockbackConsenser-Vetical_AEL
+            //    {"5", "HeatExchanger" },
+            //    //TS-Thermosiphon-Vertical_BEM
+            //    {"6", "HeatExchanger" },
+            //}
 
-            }
+            //}
 
 
 
