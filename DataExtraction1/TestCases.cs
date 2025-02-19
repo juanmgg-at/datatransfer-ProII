@@ -14,7 +14,7 @@ namespace DataExtractionNamespace
         { 1, new Dictionary<string, string>
             {
                 //Pump (CQ00730637)  Pump Curves (CQ00746630) 
-                { "11", "Pump" }
+                { "629", "Pump" }
 
             }
         },
@@ -23,9 +23,9 @@ namespace DataExtractionNamespace
         { 2, new Dictionary<string, string>
             {
                 //Heater (CQ00746232)
-                { "57", "HeaterCooler" },
+                { "674", "HeaterCooler" },
                 //Heat Exchanger Side (CQ00748041) Use FluidProfile OID
-                { "79", "HeatingCoolingCurve" }
+                { "696", "HeatingCoolingCurve" }
             }
         },
 
@@ -33,7 +33,7 @@ namespace DataExtractionNamespace
         { 3, new Dictionary<string, string>
             {
                 //Separator (CQ00746647)
-                { "147", "Separator" }
+                { "770", "Separator" }
             }
         },
 
@@ -41,7 +41,7 @@ namespace DataExtractionNamespace
         { 4, new Dictionary<string, string>
             {
                 //Valves (CQ00746645)
-                { "2654", "Valve" }
+                { "829", "Valve" }
             }
         },
 
@@ -49,11 +49,11 @@ namespace DataExtractionNamespace
         { 5, new Dictionary<string, string>
             {
                 // Simple Shell&Tube (CQ00730631)
-                { "354", "HeatExchanger" },
+                { "858", "HeatExchanger" },
 
                 // Simple Shell&Tube (CQ00730631) Use with Detailed
                 // The order matters, Detailed goes second, otherwise test will fail. It has to do with the order of attributes in baseline
-                { "490", "HeatExchanger" },
+                { "928", "HeatExchanger" },
 
             }
         },
@@ -62,7 +62,7 @@ namespace DataExtractionNamespace
         { 6, new Dictionary<string, string>
             {
                 // Rigorous Shell&Tube (CQ00746228)
-                { "424", "HeatExchanger" }
+                { "990", "HeatExchanger" }
             }
         },
 
@@ -70,7 +70,7 @@ namespace DataExtractionNamespace
         { 71, new Dictionary<string, string>
             {
                 // Heat Curves (CQ00747072) Hot Side
-                { "2704", "HeatingCoolingCurve" },
+                { "1077", "HeatingCoolingCurve" },
             }
         },
 
@@ -78,7 +78,7 @@ namespace DataExtractionNamespace
         { 72, new Dictionary<string, string>
             {
                 // Heat Curves (CQ00747072) Cold Side
-                { "2706", "HeatingCoolingCurve" }
+                { "1079", "HeatingCoolingCurve" }
             }
         },
 
@@ -86,10 +86,10 @@ namespace DataExtractionNamespace
         { 8, new Dictionary<string, string>
             {
                 // Simple Plate Heat Exchanger (CQ00749672)
-                { "781", "HeatExchanger" },
+                { "1126", "HeatExchanger" },
                 // Simple Plate Heat Exchanger (CQ00749672) Use with Detailed
                  // The order matters, Detailed goes second, otherwise test will fail. It has to do with the order of attributes in baseline
-                { "844", "HeatExchanger" },
+                { "1189", "HeatExchanger" },
 
             }
         },
@@ -159,11 +159,11 @@ namespace DataExtractionNamespace
 
                 //Keep this order, otherwise test will fail
                 // Streams (CQ00741379) ICPEbegin-1.apwz
-                { "2753", "PipingSystem" },
+                { "1560", "PipingSystem" },
                 // Streams (CQ00741379) Aspen_Plus_Scaling_Model_BaCO3_CO2_H2O.bkp
-                { "2773", "PipingSystem" },
+                { "1580", "PipingSystem" },
                 // Streams (CQ00741379) 161639.bkp
-                { "2791", "PipingSystem" }
+                { "1598", "PipingSystem" }
             }
         },
 

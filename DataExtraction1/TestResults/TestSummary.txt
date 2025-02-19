@@ -1,3 +1,4 @@
 Test Summary Report
-Total Sheets Compared: 1
+Total Sheets Compared: 2
 --------------------------------------------------
+Sheet: Valves, Number of Fails: 6
