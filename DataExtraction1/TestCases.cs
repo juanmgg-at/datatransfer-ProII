@@ -98,7 +98,7 @@ namespace DataExtractionNamespace
         { 9, new Dictionary<string, string>
             {
                 // Rigorous Plate Heat Exchanger (CQ00748791)
-                { "726", "HeatExchanger" }
+                { "1238", "HeatExchanger" }
             }
         },
 
@@ -106,7 +106,7 @@ namespace DataExtractionNamespace
         { 10, new Dictionary<string, string>
             {
                 // Simple AirCooledExchanger (CQ00749670)
-                { "893", "AirCooledExchanger" },
+                { "1293", "AirCooledExchanger" },
 
             }
         },
@@ -115,7 +115,7 @@ namespace DataExtractionNamespace
         { 11, new Dictionary<string, string>
             {
                 // Rigorous AirCooledExchanger (CQ00745140)
-                { "962", "AirCooledExchanger" }
+                { "1362", "AirCooledExchanger" }
             }
         },
 
@@ -123,14 +123,14 @@ namespace DataExtractionNamespace
         { 12, new Dictionary<string, string>
             {
                 // Compressor (CQ00744509)
-                { "1012", "Compressor" },
+                { "1412", "Compressor" },
                 // Compressor Curves (CQ00749608)
-                { "1069", "CurveData" },
-                { "1070", "CurveData" },
-                { "1071", "CurveData" },
-                { "1072", "CurveData" },
-                { "1073", "CurveData" },
-                { "1074", "CurveData" }
+                { "1469", "CurveData" },
+                { "1470", "CurveData" },
+                { "1471", "CurveData" },
+                { "1472", "CurveData" },
+                { "1473", "CurveData" },
+                { "1474", "CurveData" }
             }
         },
 
@@ -138,9 +138,9 @@ namespace DataExtractionNamespace
         { 13, new Dictionary<string, string>
             {
                 // MCompressor (CQ00749678) Use Stage object OIDs
-                { "1098", "CompressorStage" },
-                { "1099", "CompressorStage" },
-                { "1100", "CompressorStage" }
+                { "1498", "CompressorStage" },
+                { "1499", "CompressorStage" },
+                { "1500", "CompressorStage" }
             }
         },
 
@@ -148,7 +148,7 @@ namespace DataExtractionNamespace
         { 14, new Dictionary<string, string>
             {
                 // Expander (CQ00744509)
-                { "1123", "Compressor" }
+                { "1523", "Compressor" }
             }
         },
 
@@ -159,11 +159,11 @@ namespace DataExtractionNamespace
 
                 //Keep this order, otherwise test will fail
                 // Streams (CQ00741379) ICPEbegin-1.apwz
-                { "1560", "PipingSystem" },
+                { "1636", "PipingSystem" },
                 // Streams (CQ00741379) Aspen_Plus_Scaling_Model_BaCO3_CO2_H2O.bkp
-                { "1580", "PipingSystem" },
+                { "1656", "PipingSystem" },
                 // Streams (CQ00741379) 161639.bkp
-                { "1598", "PipingSystem" }
+                { "1674", "PipingSystem" }
             }
         },
 
@@ -172,11 +172,10 @@ namespace DataExtractionNamespace
             {
                 // Vessels (CQ00748800)
 
-            
                 //Inlet 1
-                { "1325", "Port" },
+                { "3044", "Port" },
                 //Inlet 2
-                { "1343", "Port" },
+                { "3062", "Port" },
 
             }
         },
@@ -185,20 +184,20 @@ namespace DataExtractionNamespace
         { 17, new Dictionary<string, string>
             {
                 // Utility (CQ00751155) Pump-Eletricity.bkp
-                { "1936", "Pump" },
+                { "1745", "Pump" },
                 // Utility (CQ00751155) Separator-Stream.bkp
-                { "1975", "Separator" },
+                { "1781", "Separator" },
                 //// Utility (CQ00751155) Compressor-Utility.bkp
-                { "2034", "Compressor" },
+                { "1840", "Compressor" },
                 //// Utility (CQ00751155) AirCooler-Cooler_Utility.bkp
-                { "1854", "AirCooledExchanger" }, // It fails in ElectricityUsage
+                { "1872", "AirCooledExchanger" }, // It fails in ElectricityUsage
                 //// Utility (CQ00751155) HeaterCooler_Utility.bkp
-                { "1835", "HeaterCooler" },
+                { "1922", "HeaterCooler" },
                 //// Utility (CQ00751155) Column_Utility.bkp  1394
-                { "1380", "Condenser" },
-                { "1405", "Reboiler" },
+                { "1942", "Condenser" },
+                { "1967", "Reboiler" },
                 //// Utility (CQ00751155) Expander-Electricity.bkp
-                { "1796", "Compressor" }
+                { "2390", "Compressor" }
             }
         },
 
@@ -206,15 +205,15 @@ namespace DataExtractionNamespace
         { 18, new Dictionary<string, string>
             {
                 // Columns (CQ00748801 & CQ00748804) AbeAdsDistillation, PumpAround,  AbeAdsDistillationStage
-                { "4436", "Distillation" },
+                { "2429", "Distillation" },
 
                 // Columns (CQ00748801 & CQ00748804) ABEAdsColumnSection, ABEAdsColumnTrays, ABEAdsColumnPacking
-                { "4874", "ColumnSection" },
-                { "4967", "ColumnSection" },
+                { "2867", "ColumnSection" },
+                { "2960", "ColumnSection" },
 
                 // Columns (CQ00748801 & CQ00748804) T-2.Condenser T-2.Reboiler
-                { "4437", "Condenser" },
-                { "4462", "Reboiler" }
+                { "2430", "Condenser" },
+                { "2455", "Reboiler" }
             }
 
         },
@@ -225,16 +224,16 @@ namespace DataExtractionNamespace
         { 19, new Dictionary<string, string>
             {
                 // Pump (CQ00734580) 
-                { "11", "Pump" }
+                { "49", "Pump" }
 
             }
         },
 
-        // 20. Rigorous FireHeater
+        // 20. FireHeater
         { 20, new Dictionary<string, string>
             {
-                // Rigorous FireHeater (CQ00748793)
-                { "52", "FiredHeater" }
+                // FireHeater (CQ00748793)
+                { "89", "FiredHeater" }
             }
         },
 
@@ -242,7 +241,7 @@ namespace DataExtractionNamespace
         { 21, new Dictionary<string, string>
             {
                 // Multimapping-HX (CQ00747904) Hot Side -> FluidProfile 
-                { "136", "HeatingCoolingCurve" },
+                { "2581", "HeatingCoolingCurve" },
             }
         },
 
@@ -250,7 +249,7 @@ namespace DataExtractionNamespace
         { 22, new Dictionary<string, string>
             {
                 // Multimapping-HX (CQ00747904) Cold Side -> FluidProfile 
-                { "114", "HeatingCoolingCurve" }
+                { "2559", "HeatingCoolingCurve" }
             }
         },
 
@@ -258,7 +257,7 @@ namespace DataExtractionNamespace
         { 23, new Dictionary<string, string>
             {
                 // Seperator (CQ00746648)
-                { "209", "Separator" }
+                { "246", "Separator" }
             }
         },
 
@@ -266,7 +265,7 @@ namespace DataExtractionNamespace
         { 24, new Dictionary<string, string>
             {
                 // Vavle (CQ00746646)
-                { "307", "Valve" }
+                { "344", "Valve" }
             }
         },
 
@@ -274,7 +273,7 @@ namespace DataExtractionNamespace
         { 25, new Dictionary<string, string>
             {
                 // SimpleShell&TubeHE (CQ00748796)
-                { "348", "HeatExchanger" },
+                { "385", "HeatExchanger" },
 
 
             }
@@ -284,7 +283,7 @@ namespace DataExtractionNamespace
         { 26, new Dictionary<string, string>
             {
                 // RigorousShell&TubeHE (CQ00746225)
-                { "418", "HeatExchanger" },
+                { "455", "HeatExchanger" },
 
             }
         },
@@ -293,7 +292,7 @@ namespace DataExtractionNamespace
         { 27, new Dictionary<string, string>
             {
                 // RigorousAirCooledHexchanger (CQ00745132)
-                { "489", "AirCooledExchanger" },
+                { "526", "AirCooledExchanger" },
 
             }
         },
@@ -302,7 +301,7 @@ namespace DataExtractionNamespace
         { 28, new Dictionary<string, string>
             {
                 // HeatCurves (CQ00747073) Hot Side -> FluidProfile 
-                { "571", "HeatingCoolingCurve" },
+                { "608", "HeatingCoolingCurve" },
             }
         },
 
@@ -310,7 +309,7 @@ namespace DataExtractionNamespace
         { 29, new Dictionary<string, string>
             {
                 // HeatCurves (CQ00747073) Cold Side -> FluidProfile 
-                { "579", "HeatingCoolingCurve" }
+                { "616", "HeatingCoolingCurve" }
             }
         },
 
@@ -318,14 +317,14 @@ namespace DataExtractionNamespace
         { 30, new Dictionary<string, string>
             {
                 // Compressor (CQ00744505)
-                { "620", "Compressor" },
+                { "657", "Compressor" },
                 // Compressor Curves (CQ00744505)
-                { "631", "CurveData" },
-                { "632", "CurveData" },
-                { "633", "CurveData" },
-                { "634", "CurveData" },
-                { "635", "CurveData" },
-                { "636", "CurveData" },
+                { "668", "CurveData" },
+                { "669", "CurveData" },
+                { "670", "CurveData" },
+                { "671", "CurveData" },
+                { "672", "CurveData" },
+                { "673", "CurveData" },
 
             }
         },
@@ -334,7 +333,7 @@ namespace DataExtractionNamespace
         { 31, new Dictionary<string, string>
             {
                 // Expander (CQ00748768)
-                { "653", "Expander" }
+                { "690", "Expander" }
             }
         },
 
@@ -344,7 +343,7 @@ namespace DataExtractionNamespace
 
 
                 // Stream (CQ00730633) Uswe MaterialPort-Inlet OID
-                { "690", "PipingSystem" },
+                { "726", "PipingSystem" },
 
             }
         },
@@ -355,7 +354,7 @@ namespace DataExtractionNamespace
             {
                 // Vessels
                 //Inlet 1
-                { "710", "Port" },
+                { "746", "Port" },
 
             }
         },
@@ -364,19 +363,19 @@ namespace DataExtractionNamespace
         { 34, new Dictionary<string, string>
             {
                 // Pump-Utility
-                { "758", "Pump" },
+                { "794", "Pump" },
                 // Seperator-Utility
-                { "800", "PipingSystem" },
+                { "834", "PipingSystem" },
                 //// Compressor Curve-Utility
-                { "805", "PipingSystem" },
+                { "839", "PipingSystem" },
                 //// Deep Cut Turbo-Expander-Utility
-                { "810", "PipingSystem" },
+                { "844", "PipingSystem" },
                 //// Acid Gas Cleaning Using MDEA-Utility
-                { "817", "PipingSystem" },
+                { "851", "PipingSystem" },
                 //// Heater_Cooler-Utility
-                { "822", "PipingSystem" },
+                { "856", "PipingSystem" },
                 //Heater_Cooler-Utility
-                { "827", "PipingSystem" },
+                { "858", "PipingSystem" },
             }
         },
 
@@ -384,9 +383,7 @@ namespace DataExtractionNamespace
         { 35, new Dictionary<string, string>
             {
                 // Multi-Compressors(CQ00730640)
-                { "2535", "Compressor" },
-                //{ "1481", "CompressorStage" },
-                //{ "1482", "CompressorStage" }
+                { "1046", "Compressor" },
             }
         },
 
@@ -395,8 +392,8 @@ namespace DataExtractionNamespace
             {
 
             // Tray Section, Trays, Column Section 
-            { "833", "TraySection" }, // Use main object OID
-            { "1852", "ColumnSection" }, // In ColumnSections
+            { "1155", "TraySection" }, // Use main object OID
+            { "2174", "ColumnSection" }, // In ColumnSections
         }
 
         },
@@ -405,7 +402,7 @@ namespace DataExtractionNamespace
         { 37, new Dictionary<string, string>
             {
             //TS-1 
-            { "1297", "ColumnSection" }, // In ColumnSections
+            { "1619", "ColumnSection" }, // In ColumnSections
 
             }
         },
@@ -415,8 +412,8 @@ namespace DataExtractionNamespace
         { 38, new Dictionary<string, string>
             {
 
-            { "112", "HeaterCooler" },
-            { "129", "HeaterCooler" },
+            { "2517", "HeaterCooler" },
+            { "2534", "HeaterCooler" },
 
             }
         },

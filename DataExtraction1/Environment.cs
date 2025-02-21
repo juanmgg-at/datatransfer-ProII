@@ -9,7 +9,7 @@ namespace DataExtractionNamespace
 
     public static class Environment
     {
-        public const string WorkspaceName = "A1";
+        public const string WorkspaceName = "A2";
         public const string BusinessServer = "ABE-Automation.qae.aspentech.com";
 
         
@@ -23,9 +23,9 @@ namespace DataExtractionNamespace
         public const string pathToStoreFiles = @"C:\Users\gutierrj\source\repos\datatransfer-ProII\DataExtraction1\";
 
 
-        public const string baselinePathFile = pathToStoreFiles + "baseline.xlsx";
+        //public const string baselinePathFile = pathToStoreFiles + "baseline.xlsx";
         //public const string baselinePathFile = pathToStoreFiles + "baseline-thermal-design.xlsx";
-        //public const string baselinePathFile = pathToStoreFiles + "baseline-hysys.xlsx";
+        public const string baselinePathFile = pathToStoreFiles + "baseline-hysys.xlsx";
 
         // The order here has to be the same as the order in TestCases
         public static readonly Dictionary<string, int> TitleToTestId = new Dictionary<string, int>
@@ -36,7 +36,7 @@ namespace DataExtractionNamespace
             //{ "Pump & Pump Curves", 1 },
             //{ "Heater & Heat Exchanger Side", 2 },
             //{ "Separator", 3 },
-            { "Valves", 4 },
+            //{ "Valves", 4 },
             //{ "SimpleShell&TubeHeatExchanger", 5 },
             //{ "RigorousShell&TubeHeatExchanger", 6 },
             //{ "Heat Curves Hot Side", 71 },
@@ -48,16 +48,16 @@ namespace DataExtractionNamespace
             //{ "Compressor & Compressor Curves", 12 },
             //{ "MCompressor", 13 }, // simulation runs with errors, it doesn't affect the transfer though
             //{ "Expander", 14 },
-            { "Streams", 15 },
+            //{ "Streams", 15 },
             //{ "Vessels", 16 },
             //{ "Utility", 17 },
             //{ "Column", 18 }
 
             //HYSYS only
             //{ "Pump & Pump Curves", 19 },
-            //{"Rigorous FireHeater", 20 },
-            //{"Multimapping-HXHotSide", 21},
-            //{"Multimapping-HXColdSide", 22},
+            //{"FireHeater", 20 },
+            {"Multimapping-HXHotSide", 21},
+            {"Multimapping-HXColdSide", 22},
             //{ "Separator", 23 },
             //{ "Valves", 24 },
             //{ "SimpleShell&TubeHE", 25 },
