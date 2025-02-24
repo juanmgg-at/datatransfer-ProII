@@ -427,7 +427,7 @@ namespace DataExtractionNamespace
         // 39. Simple HX
         { 39, new Dictionary<string, string>
              {
-                 {"92", "HeatExchanger" }
+                 {"11", "HeatExchanger" }
              }
 
          },

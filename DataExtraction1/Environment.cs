@@ -9,7 +9,7 @@ namespace DataExtractionNamespace
 
     public static class Environment
     {
-        public const string WorkspaceName = "A2";
+        public const string WorkspaceName = "A1";
         public const string BusinessServer = "ABE-Automation.qae.aspentech.com";
 
         
@@ -25,7 +25,7 @@ namespace DataExtractionNamespace
 
         //public const string baselinePathFile = pathToStoreFiles + "baseline.xlsx";
         //public const string baselinePathFile = pathToStoreFiles + "baseline-thermal-design.xlsx";
-        public const string baselinePathFile = pathToStoreFiles + "baseline-hysys.xlsx";
+        //public const string baselinePathFile = pathToStoreFiles + "baseline-hysys.xlsx";
 
         // The order here has to be the same as the order in TestCases
         public static readonly Dictionary<string, int> TitleToTestId = new Dictionary<string, int>
@@ -56,8 +56,8 @@ namespace DataExtractionNamespace
             //HYSYS only
             //{ "Pump & Pump Curves", 19 },
             //{"FireHeater", 20 },
-            {"Multimapping-HXHotSide", 21},
-            {"Multimapping-HXColdSide", 22},
+            //{"Multimapping-HXHotSide", 21},
+            //{"Multimapping-HXColdSide", 22},
             //{ "Separator", 23 },
             //{ "Valves", 24 },
             //{ "SimpleShell&TubeHE", 25 },
@@ -76,7 +76,7 @@ namespace DataExtractionNamespace
             //{ "HeaterCooler", 38 },
 
             // ProII only 
-            //{"Simple HX",  39},
+            {"Simple HX",  39},
             //{ "Pump", 40 },
             //{ "Valve", 41 },
             //{ "Flash", 42 },
