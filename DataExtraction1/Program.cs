@@ -124,11 +124,6 @@ namespace DataExtractionNamespace
             string extractedDataPath = $@"{Environment.pathToStoreFiles}extracted_data.csv";
             File.WriteAllLines(extractedDataPath, csvRows);
 
-
-            // Path to your baseline file
-            //var baselinePath = $@"{Environment.pathToStoreFiles}baseline.xlsx";
-
-
             //Utilis.CompareFiles(Environment.baselinePathFile, extractedDataPath);
 
             Console.WriteLine("Done!");

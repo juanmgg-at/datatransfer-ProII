@@ -435,7 +435,7 @@ namespace DataExtractionNamespace
         // 40. Pump
         { 40, new Dictionary<string, string>
              {
-                 {"179", "Pump" }
+                 {"108", "Pump" }
              }
 
          },
@@ -443,7 +443,7 @@ namespace DataExtractionNamespace
         // 41. Valve
         { 41, new Dictionary<string, string>
              {
-                 {"280", "Valve" }
+                 {"220", "Valve" }
              }
 
          },
@@ -451,7 +451,7 @@ namespace DataExtractionNamespace
         // 42. Flash
         { 42, new Dictionary<string, string>
              {
-                 {"217", "Separator" }
+                 {"150", "Separator" }
              }
 
          },
@@ -459,7 +459,7 @@ namespace DataExtractionNamespace
          // 43. Compressor
         { 43, new Dictionary<string, string>
              {
-                 {"322", "Compressor" }
+                 {"594", "Compressor" }
              }
 
          },
@@ -467,7 +467,7 @@ namespace DataExtractionNamespace
          // 44. Air Cooled HX
         { 44, new Dictionary<string, string>
              {
-                 {"366", "AirCooledExchanger" }
+                 {"315", "AirCooledExchanger" }
              }
 
          }, 
@@ -475,21 +475,21 @@ namespace DataExtractionNamespace
         // 45. Stream
         { 45, new Dictionary<string, string>
              {
-                 {"471", "PipingSystem" }
+                 {"410", "PipingSystem" }
              }
 
          },
         // 46. Bulk Phase & Liquid Phase
         { 46, new Dictionary<string, string>
              {
-                 {"489", "PipingSystem" }
+                 {"429", "PipingSystem" }
              }
 
          },
           // 47. Vapor Phase
         { 47, new Dictionary<string, string>
              {
-                 {"507", "PipingSystem" }
+                 {"447", "PipingSystem" }
              }
 
          },   
@@ -505,7 +505,7 @@ namespace DataExtractionNamespace
         // 49 Mixer
         { 49, new Dictionary<string, string>
              {
-                 {"530", "Generic" }
+                 {"472", "Generic" }
              }
 
          },
@@ -513,7 +513,7 @@ namespace DataExtractionNamespace
         // 50 Splitter
         { 50, new Dictionary<string, string>
              {
-                 {"695", "Generic" }
+                 {"533", "Generic" }
              }
 
          },

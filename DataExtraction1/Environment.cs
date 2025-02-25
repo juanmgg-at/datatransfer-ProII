@@ -26,6 +26,7 @@ namespace DataExtractionNamespace
         //public const string baselinePathFile = pathToStoreFiles + "baseline.xlsx";
         //public const string baselinePathFile = pathToStoreFiles + "baseline-thermal-design.xlsx";
         //public const string baselinePathFile = pathToStoreFiles + "baseline-hysys.xlsx";
+        public const string baselinePathFile = pathToStoreFiles + "baseline-ProII.xlsx";
 
         // The order here has to be the same as the order in TestCases
         public static readonly Dictionary<string, int> TitleToTestId = new Dictionary<string, int>
@@ -76,7 +77,7 @@ namespace DataExtractionNamespace
             //{ "HeaterCooler", 38 },
 
             // ProII only 
-            {"Simple HX",  39},
+            //{"Simple HX",  39},
             //{ "Pump", 40 },
             //{ "Valve", 41 },
             //{ "Flash", 42 },
@@ -86,8 +87,8 @@ namespace DataExtractionNamespace
             //{"Bulk Phase & Liquid Phase", 46},
             //{"Vapor Phase", 47},
             //{"Distillation Columns and Trays", 48},
-            //{"Mixer", 49},
-            //{"Splitter", 50},
+            {"Mixer", 49},
+            {"Splitter", 50},
             
 
             // Thermal Design Only 

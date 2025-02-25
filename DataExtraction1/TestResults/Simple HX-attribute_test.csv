@@ -1,0 +1,18 @@
+﻿Oid,ClassName,Name,Value,Baseline,Units,IsSame
+11,HeatExchanger,ColdPressureIn,111005.636,111005.636,Pa,✔
+11,HeatExchanger,ColdTemperatureIn,332.308119,332.308119,K,✔
+11,HeatExchanger,ColdPressureOut,111005.636,111005.636,Pa,✔
+11,HeatExchanger,ColdTemperatureOut,361.369932,361.369932,K,✔
+11,HeatExchanger,Duty,4804665.559,4804665.559,W,✔
+11,HeatExchanger,HotPressureIn,120658.3,120658.3,Pa,✔
+11,HeatExchanger,HotTemperatureIn,379.571146,379.571146,K,✔
+11,HeatExchanger,HotPressureOut,120658.3,120658.3,Pa,✔
+11,HeatExchanger,HotTemperatureOut,349.816667,349.816667,K,✔
+11,HeatExchanger,LogMeanTemperatureDifference,17.852639,17.852639,K,✔
+11,HeatExchanger,NumberOfShellPasses,1,1,,✔
+11,HeatExchanger,NumberOfTubePasses,1,1,,✔
+11,HeatExchanger,LogMeanTempDiffCorrectionFactor,1,1,,✔
+11,HeatExchanger,UA,269129.146,269129.146,W/K,✔
+11,HeatExchanger,LogMeanTemperatureDifferenceCorrected,17.759782,17.759782,K,✔
+11,HeatExchanger,FlowDirection,Countercurrent,Countercurrent,,✔
+Test Summary: Pass, Number of Fails: 0,,,,,
