@@ -1,0 +1,41 @@
+ ASPEN PLUS   PLAT: WIN-X64   VER: 41.0                   02/25/2025  PAGE 1       
+                       SOUR WATER STRIPPING APPLICATION                         
+                                 STREAM SECTION                                 
+
+ S1 S2                                           
+ -----
+
+ MIXED    SUBSTREAM PROPERTIES:
+
+ ***  ALL PHASES   ***
+ CPMX     BTU/LBMOL-R    36.8239    79.5894
+ CPCVMX                   1.0000     1.0549
+
+ *** VAPOR PHASE   ***
+ CPMX     BTU/LBMOL-R    MISSING    22.8151
+ CPCVMX                  MISSING     1.3483
+ MUMX     CP             MISSING  9.7697-03
+ ZMX                     MISSING     0.7458
+
+ *** LIQUID PHASE  ***
+ CPMX     BTU/LBMOL-R    36.8239    36.6506
+ CPCVMX                   1.0000     1.0000
+ MUMX     CP           9.0798-02  9.8197-02
+ ZMX                      0.1385     0.1001
+
+ ***   LIQUID 1    ***
+ CPMX     BTU/LBMOL-R    36.8239    36.6506
+ CPCVMX                   1.0000     1.0000
+ MUMX     CP           9.0798-02  9.8197-02
+ ZMX                      0.1385     0.1001
+
+ ***   LIQUID 2    ***
+ CPMX     BTU/LBMOL-R    MISSING    MISSING
+ CPCVMX                  MISSING    MISSING
+ MUMX     CP             MISSING    MISSING
+ ZMX                     MISSING    MISSING
+
+ *** SOLID PHASE   ***
+ CPMX     BTU/LBMOL-R    MISSING    MISSING
+ CPCVMX                  MISSING    MISSING
+ ZMX                     MISSING    MISSING

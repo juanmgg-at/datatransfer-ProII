@@ -41,7 +41,7 @@ namespace DataExtractionNamespace
         { 4, new Dictionary<string, string>
             {
                 //Valves (CQ00746645)
-                { "829", "Valve" }
+                { "861", "Valve" }
             }
         },
 
@@ -70,7 +70,7 @@ namespace DataExtractionNamespace
         { 71, new Dictionary<string, string>
             {
                 // Heat Curves (CQ00747072) Hot Side
-                { "1077", "HeatingCoolingCurve" },
+                { "806", "HeatingCoolingCurve" },
             }
         },
 

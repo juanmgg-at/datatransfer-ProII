@@ -1,0 +1,294 @@
+;
+;Input file created by Aspen Plus Rel. 41.0 at 15:31:26 Tue Feb 25, 2025
+;Directory   Runid VALVE_V2.0
+;
+
+
+DYNAMICS
+    DYNAMICS RESULTS=ON
+
+TITLE 'Sour Water Stripping Application' 
+
+IN-UNITS ENG SHORT-LENGTH=in 
+
+DEF-STREAMS CONVEN ALL 
+
+DIAGNOSTICS 
+    TERMINAL SIM-LEVEL=4 CONV-LEVEL=4 COST-LEVEL=4 PROP-LEVEL=4  &
+        ECON-LEVEL=4 STREAM-LEVEL=4 SYS-LEVEL=4 
+
+MODEL-OPTION 
+
+DESCRIPTION "
+    This sour water stripping system removes hydrogen sulfide,  
+    ammonia, and carbon dioxide from a water stream.  The process 
+    objective is to reduce the sour gas concentration in the  
+    water outlet stream to less than 100 ppm.  The process consists 
+    two towers and several heat exchangers.  The first tower removes  
+    hydrogen sulfide and carbon dioxide.  The second tower removes  
+    ammonia from the water stream. 
+    The automatic chemistry generation feature in Aspen Plus is used 
+    to identify all ionic species and reactions in this application. 
+    All property parameters are automatically retrieved from the  
+    Aspen Plus databanks. 
+    Copy the SOUR.TFF from the APP directory to your local directory 
+    to view the stream results with the application customized stream 
+    report format. 
+    "
+
+DATABANKS 'APV150 ASPENPCD' / 'APV150 AQUEOUS' / 'APV150 SOLIDS' &
+         / 'APV150 INORGANIC' / 'APV150 PURE35'
+
+PROP-SOURCES 'APV150 ASPENPCD' / 'APV150 AQUEOUS' /  &
+        'APV150 SOLIDS' / 'APV150 INORGANIC' / 'APV150 PURE35'
+
+COMPONENTS 
+    H2O H2O / 
+    NH3 H3N / 
+    CO2 CO2 / 
+    H2S H2S / 
+    NH4+ NH4+ / 
+    NH2COO- NH2COO- / 
+    HCO3- HCO3- / 
+    HS- HS- / 
+    OH- OH- / 
+    CO3-- CO3-2 / 
+    S-- S-2 / 
+    H3O+ H3O+ / 
+    PROPA-01 C3H8 / 
+    ISOBU-01 C4H10-2 / 
+    METHA-01 CH4 / 
+    ETHAN-01 C2H6 
+
+HENRY-COMPS GLOBAL CO2 H2S NH3 
+
+SOLVE 
+    RUN-MODE MODE=SIM 
+
+CHEMISTRY GLOBAL 
+    STOIC 1 H2O -2 / H3O+ 1 / OH- 1 
+    STOIC 2 H2S -1 / H2O -1 / H3O+ 1 / HS- 1 
+    STOIC 3 HS- -1 / H2O -1 / H3O+ 1 / S-- 1 
+    STOIC 4 CO2 -1 / H2O -2 / H3O+ 1 / HCO3- 1 
+    STOIC 5 HCO3- -1 / H2O -1 / H3O+ 1 / CO3-- 1 
+    STOIC 6 NH3 -1 / H2O -1 / NH4+ 1 / OH- 1 
+    STOIC 7 NH3 -1 / HCO3- -1 / NH2COO- 1 / H2O 1 
+    K-STOIC 1 A=132.89888 B=-13445.9 C=-22.4773 D=0 
+    K-STOIC 2 A=214.582443 B=-12995.4 C=-33.5471 D=0 
+    K-STOIC 3 A=-9.741963 B=-8585.47 C=0 D=0 
+    K-STOIC 4 A=231.465439 B=-12092.1 C=-36.7816 D=0 
+    K-STOIC 5 A=216.05043 B=-12431.7 C=-35.4819 D=0 
+    K-STOIC 6 A=-1.256563 B=-3335.7 C=1.4971 D=-0.0370566 
+    K-STOIC 7 A=-4.583437 B=2900 C=0 D=0 
+
+FLOWSHEET 
+    BLOCK B1 IN=S1 OUT=S2 
+
+PROPERTIES ELECNRTL HENRY-COMPS=GLOBAL CHEMISTRY=GLOBAL  &
+        TRUE-COMPS=NO 
+
+PROP-DATA HENRY-1
+    IN-UNITS MET VOLUME-FLOW='cum/hr' ENTHALPY-FLO='MMkcal/hr'  &
+        HEAT-TRANS-C='kcal/hr-sqm-K' PRESSURE=bar TEMPERATURE=F  &
+        VOLUME=cum DELTA-T=C HEAD=meter MOLE-DENSITY='kmol/cum'  &
+        MASS-DENSITY='kg/cum' MOLE-ENTHALP='kcal/mol'  &
+        MASS-ENTHALP='kcal/kg' HEAT=MMkcal MOLE-CONC='mol/l'  &
+        PDROP-PER-HT='mbar/m' PDROP=bar 
+    PROP-LIST HENRY 
+    BPVAL NH3 H2O -161.4927895 -283.5936000 28.10010000  &
+        -.0273483333 31.73000000 436.7300000 0.0 
+    BPVAL CO2 H2O 172.1059591 -15259.87980 -21.95743000  &
+        3.21152667E-3 31.73000000 440.3300000 0.0 
+    BPVAL H2S H2O 378.9857281 -23826.24000 -55.05510000  &
+        .0330916666 31.73000000 301.7300000 0.0 
+
+PROP-DATA NRTL-1
+    IN-UNITS MET VOLUME-FLOW='cum/hr' ENTHALPY-FLO='MMkcal/hr'  &
+        HEAT-TRANS-C='kcal/hr-sqm-K' PRESSURE=bar TEMPERATURE=C  &
+        VOLUME=cum DELTA-T=C HEAD=meter MOLE-DENSITY='kmol/cum'  &
+        MASS-DENSITY='kg/cum' MOLE-ENTHALP='kcal/mol'  &
+        MASS-ENTHALP='kcal/kg' HEAT=MMkcal MOLE-CONC='mol/l'  &
+        PDROP-PER-HT='mbar/m' PDROP=bar 
+    PROP-LIST NRTL 
+    BPVAL H2O NH3 -.5440720000 1678.469000 .2000000000 0.0 0.0  &
+        0.0 0.0 200.0000000 
+    BPVAL NH3 H2O -.1642422000 -1027.525000 .2000000000 0.0  &
+        0.0 0.0 0.0 200.0000000 
+    BPVAL H2O CO2 10.06400000 -3268.135000 .2000000000 0.0 0.0  &
+        0.0 0.0 200.0000000 
+    BPVAL CO2 H2O 10.06400000 -3268.135000 .2000000000 0.0 0.0  &
+        0.0 0.0 200.0000000 
+    BPVAL H2O H2S -3.674000000 1155.900000 .2000000000 0.0 0.0  &
+        0.0 0.0 150.0000000 
+    BPVAL H2S H2O -3.674000000 1155.900000 .2000000000 0.0 0.0  &
+        0.0 0.0 150.0000000 
+
+PROP-DATA GMELCC-1
+    IN-UNITS MET VOLUME-FLOW='cum/hr' ENTHALPY-FLO='MMkcal/hr'  &
+        HEAT-TRANS-C='kcal/hr-sqm-K' PRESSURE=bar TEMPERATURE=C  &
+        VOLUME=cum DELTA-T=C HEAD=meter MOLE-DENSITY='kmol/cum'  &
+        MASS-DENSITY='kg/cum' MOLE-ENTHALP='kcal/mol'  &
+        MASS-ENTHALP='kcal/kg' HEAT=MMkcal MOLE-CONC='mol/l'  &
+        PDROP-PER-HT='mbar/m' PDROP=bar 
+    PROP-LIST GMELCC 
+    PPVAL H2O ( NH4+ NH2COO- ) 4.668973000 
+    PPVAL ( NH4+ NH2COO- ) H2O -2.928547000 
+    PPVAL H2O ( NH4+ HCO3- ) 4.654076000 
+    PPVAL ( NH4+ HCO3- ) H2O -1.760733000 
+    PPVAL H2O ( NH4+ HS- ) 8.060565000 
+    PPVAL ( NH4+ HS- ) H2O -4.326618000 
+    PPVAL H2O ( NH4+ OH- ) 8.045000000 
+    PPVAL ( NH4+ OH- ) H2O -4.072000000 
+    PPVAL H2O ( NH4+ CO3-- ) 8.045000000 
+    PPVAL ( NH4+ CO3-- ) H2O -4.072000000 
+    PPVAL H2O ( NH4+ S-- ) 8.045000000 
+    PPVAL ( NH4+ S-- ) H2O -4.072000000 
+    PPVAL H2O ( H3O+ NH2COO- ) 8.045000000 
+    PPVAL ( H3O+ NH2COO- ) H2O -4.072000000 
+    PPVAL H2O ( H3O+ HCO3- ) 8.045000000 
+    PPVAL ( H3O+ HCO3- ) H2O -4.072000000 
+    PPVAL H2O ( H3O+ HS- ) 8.045000000 
+    PPVAL ( H3O+ HS- ) H2O -4.072000000 
+    PPVAL H2O ( H3O+ OH- ) 8.045000000 
+    PPVAL ( H3O+ OH- ) H2O -4.072000000 
+    PPVAL H2O ( H3O+ CO3-- ) 8.045000000 
+    PPVAL ( H3O+ CO3-- ) H2O -4.072000000 
+    PPVAL H2O ( H3O+ S-- ) 8.045000000 
+    PPVAL ( H3O+ S-- ) H2O -4.072000000 
+    PPVAL NH3 ( NH4+ NH2COO- ) 10.00000000 
+    PPVAL ( NH4+ NH2COO- ) NH3 -2.000000000 
+    PPVAL NH3 ( NH4+ HCO3- ) 10.00000000 
+    PPVAL ( NH4+ HCO3- ) NH3 -2.000000000 
+    PPVAL NH3 ( NH4+ HS- ) 50.00000000 
+    PPVAL ( NH4+ HS- ) NH3 -2.850924000 
+    PPVAL CO2 ( H3O+ HCO3- ) 15.00000000 
+    PPVAL ( H3O+ HCO3- ) CO2 -8.000000000 
+    PPVAL CO2 ( H3O+ HS- ) 15.00000000 
+    PPVAL ( H3O+ HS- ) CO2 -8.000000000 
+    PPVAL CO2 ( H3O+ OH- ) 15.00000000 
+    PPVAL ( H3O+ OH- ) CO2 -8.000000000 
+    PPVAL CO2 ( H3O+ CO3-- ) 15.00000000 
+    PPVAL ( H3O+ CO3-- ) CO2 -8.000000000 
+    PPVAL CO2 ( H3O+ S-- ) 15.00000000 
+    PPVAL ( H3O+ S-- ) CO2 -8.000000000 
+    PPVAL H2S ( NH4+ HS- ) 10.00000000 
+    PPVAL ( NH4+ HS- ) H2S -4.000000000 
+    PPVAL H2S ( H3O+ HCO3- ) 15.00000000 
+    PPVAL ( H3O+ HCO3- ) H2S -8.000000000 
+    PPVAL H2S ( H3O+ HS- ) 15.00000000 
+    PPVAL ( H3O+ HS- ) H2S -8.000000000 
+    PPVAL H2S ( H3O+ OH- ) 15.00000000 
+    PPVAL ( H3O+ OH- ) H2S -8.000000000 
+    PPVAL H2S ( H3O+ CO3-- ) 15.00000000 
+    PPVAL ( H3O+ CO3-- ) H2S -8.000000000 
+    PPVAL H2S ( H3O+ S-- ) 15.00000000 
+    PPVAL ( H3O+ S-- ) H2S -8.000000000 
+
+PROP-DATA GMELCD-1
+    IN-UNITS MET VOLUME-FLOW='cum/hr' ENTHALPY-FLO='MMkcal/hr'  &
+        HEAT-TRANS-C='kcal/hr-sqm-K' PRESSURE=bar TEMPERATURE=C  &
+        VOLUME=cum DELTA-T=C HEAD=meter MOLE-DENSITY='kmol/cum'  &
+        MASS-DENSITY='kg/cum' MOLE-ENTHALP='kcal/mol'  &
+        MASS-ENTHALP='kcal/kg' HEAT=MMkcal MOLE-CONC='mol/l'  &
+        PDROP-PER-HT='mbar/m' PDROP=bar 
+    PROP-LIST GMELCD 
+    PPVAL H2O ( NH4+ HCO3- ) 0.0 
+    PPVAL ( NH4+ HCO3- ) H2O 0.0 
+    PPVAL H2O ( NH4+ HS- ) -47.36412000 
+    PPVAL ( NH4+ HS- ) H2O 87.78560000 
+    PPVAL CO2 ( H3O+ HCO3- ) 0.0 
+    PPVAL ( H3O+ HCO3- ) CO2 0.0 
+    PPVAL CO2 ( H3O+ HS- ) 0.0 
+    PPVAL ( H3O+ HS- ) CO2 0.0 
+    PPVAL CO2 ( H3O+ OH- ) 0.0 
+    PPVAL ( H3O+ OH- ) CO2 0.0 
+    PPVAL CO2 ( H3O+ CO3-- ) 0.0 
+    PPVAL ( H3O+ CO3-- ) CO2 0.0 
+    PPVAL CO2 ( H3O+ S-- ) 0.0 
+    PPVAL ( H3O+ S-- ) CO2 0.0 
+    PPVAL H2S ( H3O+ HCO3- ) 0.0 
+    PPVAL ( H3O+ HCO3- ) H2S 0.0 
+    PPVAL H2S ( H3O+ HS- ) 0.0 
+    PPVAL ( H3O+ HS- ) H2S 0.0 
+    PPVAL H2S ( H3O+ OH- ) 0.0 
+    PPVAL ( H3O+ OH- ) H2S 0.0 
+    PPVAL H2S ( H3O+ CO3-- ) 0.0 
+    PPVAL ( H3O+ CO3-- ) H2S 0.0 
+    PPVAL H2S ( H3O+ S-- ) 0.0 
+    PPVAL ( H3O+ S-- ) H2S 0.0 
+
+PROP-DATA GMELCE-1
+    IN-UNITS MET VOLUME-FLOW='cum/hr' ENTHALPY-FLO='MMkcal/hr'  &
+        HEAT-TRANS-C='kcal/hr-sqm-K' PRESSURE=bar TEMPERATURE=C  &
+        VOLUME=cum DELTA-T=C HEAD=meter MOLE-DENSITY='kmol/cum'  &
+        MASS-DENSITY='kg/cum' MOLE-ENTHALP='kcal/mol'  &
+        MASS-ENTHALP='kcal/kg' HEAT=MMkcal MOLE-CONC='mol/l'  &
+        PDROP-PER-HT='mbar/m' PDROP=bar 
+    PROP-LIST GMELCE 
+    PPVAL CO2 ( H3O+ HCO3- ) 0.0 
+    PPVAL ( H3O+ HCO3- ) CO2 0.0 
+    PPVAL CO2 ( H3O+ HS- ) 0.0 
+    PPVAL ( H3O+ HS- ) CO2 0.0 
+    PPVAL CO2 ( H3O+ OH- ) 0.0 
+    PPVAL ( H3O+ OH- ) CO2 0.0 
+    PPVAL CO2 ( H3O+ CO3-- ) 0.0 
+    PPVAL ( H3O+ CO3-- ) CO2 0.0 
+    PPVAL CO2 ( H3O+ S-- ) 0.0 
+    PPVAL ( H3O+ S-- ) CO2 0.0 
+    PPVAL H2S ( H3O+ HCO3- ) 0.0 
+    PPVAL ( H3O+ HCO3- ) H2S 0.0 
+    PPVAL H2S ( H3O+ HS- ) 0.0 
+    PPVAL ( H3O+ HS- ) H2S 0.0 
+    PPVAL H2S ( H3O+ OH- ) 0.0 
+    PPVAL ( H3O+ OH- ) H2S 0.0 
+    PPVAL H2S ( H3O+ CO3-- ) 0.0 
+    PPVAL ( H3O+ CO3-- ) H2S 0.0 
+    PPVAL H2S ( H3O+ S-- ) 0.0 
+    PPVAL ( H3O+ S-- ) H2S 0.0 
+
+PROP-DATA GMELCN-1
+    IN-UNITS MET VOLUME-FLOW='cum/hr' ENTHALPY-FLO='MMkcal/hr'  &
+        HEAT-TRANS-C='kcal/hr-sqm-K' PRESSURE=bar TEMPERATURE=C  &
+        VOLUME=cum DELTA-T=C HEAD=meter MOLE-DENSITY='kmol/cum'  &
+        MASS-DENSITY='kg/cum' MOLE-ENTHALP='kcal/mol'  &
+        MASS-ENTHALP='kcal/kg' HEAT=MMkcal MOLE-CONC='mol/l'  &
+        PDROP-PER-HT='mbar/m' PDROP=bar 
+    PROP-LIST GMELCN 
+    PPVAL CO2 ( H3O+ HCO3- ) .1000000000 
+    PPVAL CO2 ( H3O+ HS- ) .1000000000 
+    PPVAL CO2 ( H3O+ OH- ) .1000000000 
+    PPVAL CO2 ( H3O+ CO3-- ) .1000000000 
+    PPVAL CO2 ( H3O+ S-- ) .1000000000 
+    PPVAL H2S ( H3O+ HCO3- ) .1000000000 
+    PPVAL H2S ( H3O+ HS- ) .1000000000 
+    PPVAL H2S ( H3O+ OH- ) .1000000000 
+    PPVAL H2S ( H3O+ CO3-- ) .1000000000 
+    PPVAL H2S ( H3O+ S-- ) .1000000000 
+
+STREAM S1 
+    SUBSTREAM MIXED TEMP=170. PRES=500. MASS-FLOW=300000. 
+    MOLE-FRAC PROPA-01 0.15 / ISOBU-01 0.45 / ETHAN-01 0.4 
+
+BLOCK B1 VALVE 
+    PARAM VAL-POSN=50. CALC-CAVIND=YES 
+    VALVE-DEF VAL-TYPE="GLOBE" MFGR="NELES-JAMESBURY" SERIES= &
+        "V500_LINEAR_FLOW" SIZE="3-IN" 
+    VAL-PARAM VP-DAT=10 CV-DAT=11 XT-DAT=0.79 FL-DAT=0.97 /  &
+        VP-DAT=20 CV-DAT=33 XT-DAT=0.79 FL-DAT=0.97 / VP-DAT=30  &
+        CV-DAT=55 XT-DAT=0.77 FL-DAT=0.96 / VP-DAT=40 CV-DAT=72  &
+        XT-DAT=0.75 FL-DAT=0.94 / VP-DAT=50 CV-DAT=86  &
+        XT-DAT=0.73 FL-DAT=0.93 / VP-DAT=60 CV-DAT=97  &
+        XT-DAT=0.71 FL-DAT=0.92 / VP-DAT=70 CV-DAT=108  &
+        XT-DAT=0.71 FL-DAT=0.92 / VP-DAT=80 CV-DAT=117  &
+        XT-DAT=0.69 FL-DAT=0.9 / VP-DAT=90 CV-DAT=125  &
+        XT-DAT=0.68 FL-DAT=0.9 / VP-DAT=100 CV-DAT=132  &
+        XT-DAT=0.68 FL-DAT=0.9 
+
+EO-CONV-OPTI 
+
+STREAM-REPOR MOLEFLOW 
+;
+;
+;
+;
+;
