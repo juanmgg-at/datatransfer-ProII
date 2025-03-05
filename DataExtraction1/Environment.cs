@@ -9,7 +9,7 @@ namespace DataExtractionNamespace
 
     public static class Environment
     {
-        public const string WorkspaceName = "A1";
+        public const string WorkspaceName = "A3";
         public const string BusinessServer = "ABE-Automation.qae.aspentech.com";
 
         
@@ -23,10 +23,10 @@ namespace DataExtractionNamespace
         public const string pathToStoreFiles = @"C:\Users\gutierrj\source\repos\datatransfer-ProII\DataExtraction1\";
 
 
-        public const string baselinePathFile = pathToStoreFiles + "baseline.xlsx";
+        //public const string baselinePathFile = pathToStoreFiles + "baseline.xlsx";
         //public const string baselinePathFile = pathToStoreFiles + "baseline-thermal-design.xlsx";
         //public const string baselinePathFile = pathToStoreFiles + "baseline-hysys.xlsx";
-        //public const string baselinePathFile = pathToStoreFiles + "baseline-ProII.xlsx";
+        public const string baselinePathFile = pathToStoreFiles + "baseline-ProII.xlsx";
 
         // The order here has to be the same as the order in TestCases
         public static readonly Dictionary<string, int> TitleToTestId = new Dictionary<string, int>
@@ -37,10 +37,10 @@ namespace DataExtractionNamespace
             //{ "Pump & Pump Curves", 1 },
             //{ "Heater & Heat Exchanger Side", 2 },
             //{ "Separator", 3 },
-            { "Valves", 4 },
+            //{ "Valves", 4 },
             //{ "SimpleShell&TubeHeatExchanger", 5 },
             //{ "RigorousShell&TubeHeatExchanger", 6 },
-            { "Heat Curves Hot Side", 71 },
+            //{ "Heat Curves Hot Side", 71 },
             //{ "Heat Curves Cold Side", 72 },
             //{ "SimplePlateHeatExchanger", 8 },
             //{ "RigorousPlateHeatExchanger", 9 },
@@ -89,6 +89,11 @@ namespace DataExtractionNamespace
             //{"Distillation Columns and Trays", 48},
             //{"Mixer", 49},
             //{"Splitter", 50},
+            //{"PumpAround", 51},
+            //{"Tubine", 52},
+            //{"SideColumn", 53},
+            //{"DistillationPortData", 54},
+            {"ValvePortData", 55},
             
 
             // Thermal Design Only 

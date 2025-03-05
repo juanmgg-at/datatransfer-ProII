@@ -1,5 +1,4 @@
 Test Summary Report
 Total Sheets Compared: 2
 --------------------------------------------------
-Sheet: Valves, Number of Fails: 1
-Sheet: Heat Curves Hot Side, Number of Fails: 47
+Sheet: Simple HX, Number of Fails: 1

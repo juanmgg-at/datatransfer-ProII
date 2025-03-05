@@ -1,770 +1,302 @@
 Oid,SheetName,ClassName,Name,Value,Units
-861,Valves,Valve,CavitationIndex,3.80768705942795,
-861,Valves,Valve,ChokeStatus,3,
-861,Valves,Valve,ChokeStatusValue,Valve is not Choked,
-861,Valves,Valve,EnthalpyFlowIn,-2548668.34281229,J/kg
-861,Valves,Valve,EnthalpyFlowOut,-2548668.34285442,J/kg
-861,Valves,Valve,MassFlowIn,37.7993641666668,kg/s
-861,Valves,Valve,MassFlowOut,37.7993641666668,kg/s
-861,Valves,Valve,MoleFlowIn,0.843776037327736,kmol/s
-861,Valves,Valve,MoleFlowOut,0.843776037327736,kmol/s
-861,Valves,Valve,OutletLiquidViscosity,9.81972174340845E-05,(N/m^2).s
-861,Valves,Valve,OutletVaporCompressbility,0.745789291333764,unitless
-861,Valves,Valve,OutletVaporDensity,48.8467510885472,kg/m^3
-861,Valves,Valve,OutletVaporHeatCapacity,1.34832148167431,
-861,Valves,Valve,OutletVaporMolecularWeight,40.283561878742,g/mol
-861,Valves,Valve,OutletVaporViscosity,9.7696650799025E-06,(N/m^2).s
-861,Valves,Valve,Ports.Inlet.BulkEnthalpyFlow,-96338042.8300169,W
-861,Valves,Valve,Ports.Inlet.BulkHeatCapacityRatio,1,
-861,Valves,Valve,Ports.Inlet.BulkMassDensity,383.371333703475,kg/m^3
-861,Valves,Valve,Ports.Inlet.BulkMassEnthalpy,-2548668.34281229,J/kg
-861,Valves,Valve,Ports.Inlet.BulkMassEntropy,-6990.62737479473,J/(kg.K)
-861,Valves,Valve,Ports.Inlet.BulkMassFlow,37.7993641666668,kg/s
-861,Valves,Valve,Ports.Inlet.BulkMolarDensity,8.5578038654583,kmol/m^3
-861,Valves,Valve,Ports.Inlet.BulkMolarEnthalpy,-114174897.80241,J/kmol
-861,Valves,Valve,Ports.Inlet.BulkMolarEntropy,-313165.174410731,J/(kmol.K)
-861,Valves,Valve,Ports.Inlet.BulkMolarFlow,0.843776037327736,kmol/s
-861,Valves,Valve,Ports.Inlet.BulkMolarHeatCapacity,154174.287065078,J/(kmol.K)
-861,Valves,Valve,Ports.Inlet.BulkMolecularWeight,44.797864,g/mol
-861,Valves,Valve,Ports.Inlet.BulkPressure,3447378.64658418,Pa
-861,Valves,Valve,Ports.Inlet.BulkTemperature,349.816666666667,K
-861,Valves,Valve,Ports.Inlet.BulkVolumetricFlow,0.0985972628717811,m^3/s
-861,Valves,Valve,Ports.Inlet.CompBulkMassFlow(1),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompBulkMassFlow(2),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompBulkMassFlow(3),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompBulkMassFlow(4),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompBulkMassFlow(5),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompBulkMassFlow(6),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompBulkMassFlow(7),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompBulkMassFlow(8),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompBulkMassFlow(9),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompBulkMassFlow(10),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompBulkMassFlow(11),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompBulkMassFlow(12),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompBulkMassFlow(13),5.58113803583147,kg/s
-861,Valves,Valve,Ports.Inlet.CompBulkMassFlow(14),22.0694094576067,kg/s
-861,Valves,Valve,Ports.Inlet.CompBulkMassFlow(15),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompBulkMassFlow(16),10.1488166732286,kg/s
-861,Valves,Valve,Ports.Inlet.CompBulkMassFraction(1),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompBulkMassFraction(2),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompBulkMassFraction(3),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompBulkMassFraction(4),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompBulkMassFraction(5),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompBulkMassFraction(6),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompBulkMassFraction(7),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompBulkMassFraction(8),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompBulkMassFraction(9),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompBulkMassFraction(10),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompBulkMassFraction(11),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompBulkMassFraction(12),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompBulkMassFraction(13),0.147651638033456,kg/kg
-861,Valves,Valve,Ports.Inlet.CompBulkMassFraction(14),0.583856632092994,kg/kg
-861,Valves,Valve,Ports.Inlet.CompBulkMassFraction(15),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompBulkMassFraction(16),0.268491729873549,kg/kg
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFlow(1),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFlow(2),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFlow(3),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFlow(4),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFlow(5),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFlow(6),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFlow(7),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFlow(8),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFlow(9),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFlow(10),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFlow(11),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFlow(12),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFlow(13),0.12656640559916,kmol/s
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFlow(14),0.379699216797481,kmol/s
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFlow(15),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFlow(16),0.337510414931094,kmol/s
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFraction(1),0,kmol/kmol
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFraction(2),0,kmol/kmol
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFraction(3),0,kmol/kmol
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFraction(4),0,kmol/kmol
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFraction(5),0,kmol/kmol
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFraction(6),0,kmol/kmol
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFraction(7),0,kmol/kmol
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFraction(8),0,kmol/kmol
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFraction(9),0,kmol/kmol
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFraction(10),0,kmol/kmol
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFraction(11),0,kmol/kmol
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFraction(12),0,kmol/kmol
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFraction(13),0.15,kmol/kmol
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFraction(14),0.45,kmol/kmol
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFraction(15),0,kmol/kmol
-861,Valves,Valve,Ports.Inlet.CompBulkMoleFraction(16),0.4,kmol/kmol
-861,Valves,Valve,Ports.Inlet.CompDBName(1),H2O,
-861,Valves,Valve,Ports.Inlet.CompDBName(2),NH3,
-861,Valves,Valve,Ports.Inlet.CompDBName(3),CO2,
-861,Valves,Valve,Ports.Inlet.CompDBName(4),H2S,
-861,Valves,Valve,Ports.Inlet.CompDBName(5),NH4+,
-861,Valves,Valve,Ports.Inlet.CompDBName(6),NH2COO-,
-861,Valves,Valve,Ports.Inlet.CompDBName(7),HCO3-,
-861,Valves,Valve,Ports.Inlet.CompDBName(8),HS-,
-861,Valves,Valve,Ports.Inlet.CompDBName(9),OH-,
-861,Valves,Valve,Ports.Inlet.CompDBName(10),CO3--,
-861,Valves,Valve,Ports.Inlet.CompDBName(11),S--,
-861,Valves,Valve,Ports.Inlet.CompDBName(12),H3O+,
-861,Valves,Valve,Ports.Inlet.CompDBName(13),PROPA-01,
-861,Valves,Valve,Ports.Inlet.CompDBName(14),ISOBU-01,
-861,Valves,Valve,Ports.Inlet.CompDBName(15),METHA-01,
-861,Valves,Valve,Ports.Inlet.CompDBName(16),ETHAN-01,
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFlow(1),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFlow(2),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFlow(3),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFlow(4),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFlow(5),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFlow(6),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFlow(7),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFlow(8),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFlow(9),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFlow(10),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFlow(11),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFlow(12),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFlow(13),5.58113803583147,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFlow(14),22.0694094576067,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFlow(15),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFlow(16),10.1488166732286,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFraction(1),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFraction(2),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFraction(3),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFraction(4),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFraction(5),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFraction(6),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFraction(7),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFraction(8),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFraction(9),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFraction(10),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFraction(11),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFraction(12),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFraction(13),0.147651638033456,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFraction(14),0.583856632092994,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFraction(15),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquid1MassFraction(16),0.268491729873549,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFlow(1),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFlow(2),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFlow(3),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFlow(4),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFlow(5),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFlow(6),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFlow(7),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFlow(8),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFlow(9),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFlow(10),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFlow(11),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFlow(12),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFlow(13),0.12656640559916,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFlow(14),0.379699216797481,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFlow(15),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFlow(16),0.337510414931094,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFraction(1),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFraction(2),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFraction(3),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFraction(4),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFraction(5),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFraction(6),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFraction(7),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFraction(8),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFraction(9),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFraction(10),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFraction(11),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFraction(12),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFraction(13),0.15,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFraction(14),0.45,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFraction(15),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquid1MoleFraction(16),0.4,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFlow(1),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFlow(2),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFlow(3),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFlow(4),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFlow(5),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFlow(6),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFlow(7),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFlow(8),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFlow(9),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFlow(10),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFlow(11),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFlow(12),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFlow(13),5.58113803583147,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFlow(14),22.0694094576067,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFlow(15),0,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFlow(16),10.1488166732286,kg/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFraction(1),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFraction(2),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFraction(3),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFraction(4),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFraction(5),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFraction(6),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFraction(7),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFraction(8),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFraction(9),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFraction(10),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFraction(11),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFraction(12),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFraction(13),0.147651638033456,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFraction(14),0.583856632092994,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFraction(15),0,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquidMassFraction(16),0.268491729873549,kg/kg
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFlow(1),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFlow(2),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFlow(3),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFlow(4),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFlow(5),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFlow(6),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFlow(7),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFlow(8),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFlow(9),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFlow(10),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFlow(11),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFlow(12),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFlow(13),0.12656640559916,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFlow(14),0.379699216797481,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFlow(15),0,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFlow(16),0.337510414931094,kmol/s
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFraction(1),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFraction(2),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFraction(3),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFraction(4),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFraction(5),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFraction(6),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFraction(7),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFraction(8),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFraction(9),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFraction(10),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFraction(11),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFraction(12),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFraction(13),0.15,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFraction(14),0.45,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFraction(15),0,mol/mol
-861,Valves,Valve,Ports.Inlet.CompLiquidMoleFraction(16),0.4,mol/mol
-861,Valves,Valve,Ports.Inlet.CompMolecularWeight(1),18.01528,g/mol
-861,Valves,Valve,Ports.Inlet.CompMolecularWeight(2),17.03056,g/mol
-861,Valves,Valve,Ports.Inlet.CompMolecularWeight(3),44.0098,g/mol
-861,Valves,Valve,Ports.Inlet.CompMolecularWeight(4),34.08188,g/mol
-861,Valves,Valve,Ports.Inlet.CompMolecularWeight(5),18.03795,g/mol
-861,Valves,Valve,Ports.Inlet.CompMolecularWeight(6),60.03297,g/mol
-861,Valves,Valve,Ports.Inlet.CompMolecularWeight(7),61.01769,g/mol
-861,Valves,Valve,Ports.Inlet.CompMolecularWeight(8),33.07449,g/mol
-861,Valves,Valve,Ports.Inlet.CompMolecularWeight(9),17.00789,g/mol
-861,Valves,Valve,Ports.Inlet.CompMolecularWeight(10),60.0103,g/mol
-861,Valves,Valve,Ports.Inlet.CompMolecularWeight(11),32.0671,g/mol
-861,Valves,Valve,Ports.Inlet.CompMolecularWeight(12),19.02267,g/mol
-861,Valves,Valve,Ports.Inlet.CompMolecularWeight(13),44.09652,g/mol
-861,Valves,Valve,Ports.Inlet.CompMolecularWeight(14),58.1234,g/mol
-861,Valves,Valve,Ports.Inlet.CompMolecularWeight(15),16.04276,g/mol
-861,Valves,Valve,Ports.Inlet.CompMolecularWeight(16),30.06964,g/mol
-861,Valves,Valve,Ports.Inlet.DBName,B1-Inlet,
-861,Valves,Valve,Ports.Inlet.Liquid1Compressibility,0.138502911671311,unitless
-861,Valves,Valve,Ports.Inlet.Liquid1EnthalpyFlow,-96338042.8300169,W
-861,Valves,Valve,Ports.Inlet.Liquid1MassDensity,383.371333703475,kg/m^3
-861,Valves,Valve,Ports.Inlet.Liquid1MassEnthalpy,-2548668.34281229,J/kg
-861,Valves,Valve,Ports.Inlet.Liquid1MassEntropy,-6990.62737479473,J/(kg.K)
-861,Valves,Valve,Ports.Inlet.Liquid1MassFlow,37.7993641666668,kg/s
-861,Valves,Valve,Ports.Inlet.Liquid1MolarDensity,8.5578038654583,kmol/m^3
-861,Valves,Valve,Ports.Inlet.Liquid1MolarEnthalpy,-114174897.80241,J/kmol
-861,Valves,Valve,Ports.Inlet.Liquid1MolarEntropy,-313165.174410731,J/(kmol.K)
-861,Valves,Valve,Ports.Inlet.Liquid1MolarFlow,0.843776037327735,kmol/s
-861,Valves,Valve,Ports.Inlet.Liquid1MolecularWeight,44.797864,g/mol
-861,Valves,Valve,Ports.Inlet.LiquidCompressibility,0.138502911671311,unitless
-861,Valves,Valve,Ports.Inlet.LiquidEnthalpyFlow,-96338042.8300169,W
-861,Valves,Valve,Ports.Inlet.LiquidHeatCapacityRatio,1,
-861,Valves,Valve,Ports.Inlet.LiquidMassEnthalpy,-2548668.34281229,J/kg
-861,Valves,Valve,Ports.Inlet.LiquidMassFraction,1,fraction
-861,Valves,Valve,Ports.Inlet.LiquidMolarHeatCapacity,154174.287065078,J/(kmol.K)
-861,Valves,Valve,Ports.Inlet.LiquidViscosity,9.07975477935102E-05,(N/m^2).s
-861,Valves,Valve,Ports.Inlet.Name,Inlet,
-861,Valves,Valve,Ports.Inlet.PhysicalPort,Inlet,
-861,Valves,Valve,Ports.Inlet.SolidMassFraction,0,fraction
-861,Valves,Valve,Ports.Inlet.SolidMolarFraction,0,fraction
-861,Valves,Valve,Ports.Inlet.StreamIdentifier,16c7a423-17bf-486a-971e-06107cf3d7eb,
-861,Valves,Valve,Ports.Inlet.StreamTag,S1,
-861,Valves,Valve,Ports.Inlet.VaporMassFraction,0,fraction
-861,Valves,Valve,Ports.Inlet.VaporMolarFraction,0,fraction
-861,Valves,Valve,Ports.Outlet.BulkEnthalpyFlow,-96338042.8316094,W
-861,Valves,Valve,Ports.Outlet.BulkHeatCapacityRatio,1.05485151402296,
-861,Valves,Valve,Ports.Outlet.BulkMassDensity,141.552871270465,kg/m^3
-861,Valves,Valve,Ports.Outlet.BulkMassEnthalpy,-2548668.34285442,J/kg
-861,Valves,Valve,Ports.Outlet.BulkMassEntropy,-6941.25577058855,J/(kg.K)
-861,Valves,Valve,Ports.Outlet.BulkMassFlow,37.7993641666668,kg/s
-861,Valves,Valve,Ports.Outlet.BulkMolarDensity,3.15981296051225,kmol/m^3
-861,Valves,Valve,Ports.Outlet.BulkMolarEnthalpy,-114174897.804298,J/kmol
-861,Valves,Valve,Ports.Outlet.BulkMolarEntropy,-310953.432000041,J/(kmol.K)
-861,Valves,Valve,Ports.Outlet.BulkMolarFlow,0.843776037327736,kmol/s
-861,Valves,Valve,Ports.Outlet.BulkMolarHeatCapacity,333224.903163314,J/(kmol.K)
-861,Valves,Valve,Ports.Outlet.BulkMolecularWeight,44.797864,g/mol
-861,Valves,Valve,Ports.Outlet.BulkPressure,2571120.30162429,Pa
-861,Valves,Valve,Ports.Outlet.BulkTemperature,341.956747348864,K
-861,Valves,Valve,Ports.Outlet.BulkVolumetricFlow,0.267033538969645,m^3/s
-861,Valves,Valve,Ports.Outlet.CompBulkMassFlow(1),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompBulkMassFlow(2),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompBulkMassFlow(3),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompBulkMassFlow(4),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompBulkMassFlow(5),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompBulkMassFlow(6),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompBulkMassFlow(7),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompBulkMassFlow(8),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompBulkMassFlow(9),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompBulkMassFlow(10),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompBulkMassFlow(11),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompBulkMassFlow(12),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompBulkMassFlow(13),5.58113803583147,kg/s
-861,Valves,Valve,Ports.Outlet.CompBulkMassFlow(14),22.0694094576067,kg/s
-861,Valves,Valve,Ports.Outlet.CompBulkMassFlow(15),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompBulkMassFlow(16),10.1488166732286,kg/s
-861,Valves,Valve,Ports.Outlet.CompBulkMassFraction(1),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompBulkMassFraction(2),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompBulkMassFraction(3),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompBulkMassFraction(4),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompBulkMassFraction(5),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompBulkMassFraction(6),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompBulkMassFraction(7),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompBulkMassFraction(8),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompBulkMassFraction(9),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompBulkMassFraction(10),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompBulkMassFraction(11),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompBulkMassFraction(12),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompBulkMassFraction(13),0.147651638033456,kg/kg
-861,Valves,Valve,Ports.Outlet.CompBulkMassFraction(14),0.583856632092994,kg/kg
-861,Valves,Valve,Ports.Outlet.CompBulkMassFraction(15),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompBulkMassFraction(16),0.268491729873549,kg/kg
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFlow(1),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFlow(2),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFlow(3),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFlow(4),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFlow(5),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFlow(6),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFlow(7),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFlow(8),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFlow(9),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFlow(10),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFlow(11),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFlow(12),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFlow(13),0.12656640559916,kmol/s
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFlow(14),0.379699216797481,kmol/s
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFlow(15),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFlow(16),0.337510414931094,kmol/s
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFraction(1),0,kmol/kmol
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFraction(2),0,kmol/kmol
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFraction(3),0,kmol/kmol
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFraction(4),0,kmol/kmol
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFraction(5),0,kmol/kmol
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFraction(6),0,kmol/kmol
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFraction(7),0,kmol/kmol
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFraction(8),0,kmol/kmol
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFraction(9),0,kmol/kmol
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFraction(10),0,kmol/kmol
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFraction(11),0,kmol/kmol
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFraction(12),0,kmol/kmol
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFraction(13),0.15,kmol/kmol
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFraction(14),0.45,kmol/kmol
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFraction(15),0,kmol/kmol
-861,Valves,Valve,Ports.Outlet.CompBulkMoleFraction(16),0.4,kmol/kmol
-861,Valves,Valve,Ports.Outlet.CompDBName(1),H2O,
-861,Valves,Valve,Ports.Outlet.CompDBName(2),NH3,
-861,Valves,Valve,Ports.Outlet.CompDBName(3),CO2,
-861,Valves,Valve,Ports.Outlet.CompDBName(4),H2S,
-861,Valves,Valve,Ports.Outlet.CompDBName(5),NH4+,
-861,Valves,Valve,Ports.Outlet.CompDBName(6),NH2COO-,
-861,Valves,Valve,Ports.Outlet.CompDBName(7),HCO3-,
-861,Valves,Valve,Ports.Outlet.CompDBName(8),HS-,
-861,Valves,Valve,Ports.Outlet.CompDBName(9),OH-,
-861,Valves,Valve,Ports.Outlet.CompDBName(10),CO3--,
-861,Valves,Valve,Ports.Outlet.CompDBName(11),S--,
-861,Valves,Valve,Ports.Outlet.CompDBName(12),H3O+,
-861,Valves,Valve,Ports.Outlet.CompDBName(13),PROPA-01,
-861,Valves,Valve,Ports.Outlet.CompDBName(14),ISOBU-01,
-861,Valves,Valve,Ports.Outlet.CompDBName(15),METHA-01,
-861,Valves,Valve,Ports.Outlet.CompDBName(16),ETHAN-01,
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFlow(1),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFlow(2),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFlow(3),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFlow(4),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFlow(5),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFlow(6),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFlow(7),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFlow(8),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFlow(9),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFlow(10),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFlow(11),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFlow(12),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFlow(13),3.99380298802598,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFlow(14),17.9699853621271,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFlow(15),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFlow(16),6.04050737325549,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFraction(1),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFraction(2),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFraction(3),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFraction(4),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFraction(5),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFraction(6),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFraction(7),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFraction(8),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFraction(9),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFraction(10),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFraction(11),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFraction(12),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFraction(13),0.142613941356418,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFraction(14),0.641686744762738,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFraction(15),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquid1MassFraction(16),0.215699313880844,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFlow(1),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFlow(2),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFlow(3),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFlow(4),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFlow(5),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFlow(6),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFlow(7),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFlow(8),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFlow(9),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFlow(10),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFlow(11),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFlow(12),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFlow(13),0.0905695730190499,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFlow(14),0.309169548961815,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFlow(15),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFlow(16),0.200883927218799,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFraction(1),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFraction(2),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFraction(3),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFraction(4),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFraction(5),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFraction(6),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFraction(7),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFraction(8),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFraction(9),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFraction(10),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFraction(11),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFraction(12),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFraction(13),0.150792702910311,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFraction(14),0.514748059325706,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFraction(15),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquid1MoleFraction(16),0.334459237763983,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFlow(1),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFlow(2),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFlow(3),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFlow(4),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFlow(5),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFlow(6),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFlow(7),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFlow(8),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFlow(9),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFlow(10),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFlow(11),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFlow(12),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFlow(13),3.99380298802598,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFlow(14),17.9699853621271,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFlow(15),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFlow(16),6.04050737325549,kg/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFraction(1),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFraction(2),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFraction(3),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFraction(4),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFraction(5),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFraction(6),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFraction(7),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFraction(8),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFraction(9),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFraction(10),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFraction(11),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFraction(12),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFraction(13),0.142613941356418,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFraction(14),0.641686744762738,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFraction(15),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquidMassFraction(16),0.215699313880844,kg/kg
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFlow(1),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFlow(2),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFlow(3),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFlow(4),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFlow(5),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFlow(6),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFlow(7),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFlow(8),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFlow(9),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFlow(10),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFlow(11),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFlow(12),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFlow(13),0.0905695730190499,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFlow(14),0.309169548961815,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFlow(15),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFlow(16),0.200883927218799,kmol/s
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFraction(1),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFraction(2),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFraction(3),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFraction(4),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFraction(5),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFraction(6),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFraction(7),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFraction(8),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFraction(9),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFraction(10),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFraction(11),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFraction(12),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFraction(13),0.150792702910311,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFraction(14),0.514748059325706,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFraction(15),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompLiquidMoleFraction(16),0.334459237763983,mol/mol
-861,Valves,Valve,Ports.Outlet.CompMolecularWeight(1),18.01528,g/mol
-861,Valves,Valve,Ports.Outlet.CompMolecularWeight(2),17.03056,g/mol
-861,Valves,Valve,Ports.Outlet.CompMolecularWeight(3),44.0098,g/mol
-861,Valves,Valve,Ports.Outlet.CompMolecularWeight(4),34.08188,g/mol
-861,Valves,Valve,Ports.Outlet.CompMolecularWeight(5),18.03795,g/mol
-861,Valves,Valve,Ports.Outlet.CompMolecularWeight(6),60.03297,g/mol
-861,Valves,Valve,Ports.Outlet.CompMolecularWeight(7),61.01769,g/mol
-861,Valves,Valve,Ports.Outlet.CompMolecularWeight(8),33.07449,g/mol
-861,Valves,Valve,Ports.Outlet.CompMolecularWeight(9),17.00789,g/mol
-861,Valves,Valve,Ports.Outlet.CompMolecularWeight(10),60.0103,g/mol
-861,Valves,Valve,Ports.Outlet.CompMolecularWeight(11),32.0671,g/mol
-861,Valves,Valve,Ports.Outlet.CompMolecularWeight(12),19.02267,g/mol
-861,Valves,Valve,Ports.Outlet.CompMolecularWeight(13),44.09652,g/mol
-861,Valves,Valve,Ports.Outlet.CompMolecularWeight(14),58.1234,g/mol
-861,Valves,Valve,Ports.Outlet.CompMolecularWeight(15),16.04276,g/mol
-861,Valves,Valve,Ports.Outlet.CompMolecularWeight(16),30.06964,g/mol
-861,Valves,Valve,Ports.Outlet.CompVapourMassFlow(1),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompVapourMassFlow(2),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompVapourMassFlow(3),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompVapourMassFlow(4),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompVapourMassFlow(5),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompVapourMassFlow(6),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompVapourMassFlow(7),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompVapourMassFlow(8),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompVapourMassFlow(9),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompVapourMassFlow(10),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompVapourMassFlow(11),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompVapourMassFlow(12),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompVapourMassFlow(13),1.5873350478055,kg/s
-861,Valves,Valve,Ports.Outlet.CompVapourMassFlow(14),4.09942409547959,kg/s
-861,Valves,Valve,Ports.Outlet.CompVapourMassFlow(15),0,kg/s
-861,Valves,Valve,Ports.Outlet.CompVapourMassFlow(16),4.10830929997316,kg/s
-861,Valves,Valve,Ports.Outlet.CompVapourMassFraction(1),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompVapourMassFraction(2),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompVapourMassFraction(3),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompVapourMassFraction(4),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompVapourMassFraction(5),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompVapourMassFraction(6),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompVapourMassFraction(7),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompVapourMassFraction(8),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompVapourMassFraction(9),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompVapourMassFraction(10),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompVapourMassFraction(11),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompVapourMassFraction(12),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompVapourMassFraction(13),0.162054513146157,kg/kg
-861,Valves,Valve,Ports.Outlet.CompVapourMassFraction(14),0.418519188429065,kg/kg
-861,Valves,Valve,Ports.Outlet.CompVapourMassFraction(15),0,kg/kg
-861,Valves,Valve,Ports.Outlet.CompVapourMassFraction(16),0.419426298424778,kg/kg
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFlow(1),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFlow(2),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFlow(3),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFlow(4),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFlow(5),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFlow(6),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFlow(7),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFlow(8),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFlow(9),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFlow(10),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFlow(11),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFlow(12),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFlow(13),0.0359968325801107,kmol/s
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFlow(14),0.0705296678356666,kmol/s
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFlow(15),0,kmol/s
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFlow(16),0.136626487712296,kmol/s
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFraction(1),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFraction(2),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFraction(3),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFraction(4),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFraction(5),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFraction(6),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFraction(7),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFraction(8),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFraction(9),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFraction(10),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFraction(11),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFraction(12),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFraction(13),0.148041909158651,mol/mol
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFraction(14),0.290062928605744,mol/mol
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFraction(15),0,mol/mol
-861,Valves,Valve,Ports.Outlet.CompVapourMoleFraction(16),0.561895162235605,mol/mol
-861,Valves,Valve,Ports.Outlet.DBName,B1-Outlet,
-861,Valves,Valve,Ports.Outlet.Liquid1Compressibility,0.10013583541185,unitless
-861,Valves,Valve,Ports.Outlet.Liquid1EnthalpyFlow,-71773491.8569864,W
-861,Valves,Valve,Ports.Outlet.Liquid1MassDensity,421.072712017651,kg/m^3
-861,Valves,Valve,Ports.Outlet.Liquid1MassEnthalpy,-2562945.79109845,J/kg
-861,Valves,Valve,Ports.Outlet.Liquid1MassEntropy,-7098.56347609354,J/(kg.K)
-861,Valves,Valve,Ports.Outlet.Liquid1MassFlow,28.0042957234086,kg/s
-861,Valves,Valve,Ports.Outlet.Liquid1MolarDensity,9.03097077408059,kmol/m^3
-861,Valves,Valve,Ports.Outlet.Liquid1MolarEnthalpy,-119498397.460146,J/kmol
-861,Valves,Valve,Ports.Outlet.Liquid1MolarEntropy,-330973.43010862,J/(kmol.K)
-861,Valves,Valve,Ports.Outlet.Liquid1MolarFlow,0.600623049199663,kmol/s
-861,Valves,Valve,Ports.Outlet.Liquid1MolecularWeight,46.6254096653877,g/mol
-861,Valves,Valve,Ports.Outlet.LiquidCompressibility,0.10013583541185,unitless
-861,Valves,Valve,Ports.Outlet.LiquidEnthalpyFlow,-71773491.8569864,W
-861,Valves,Valve,Ports.Outlet.LiquidHeatCapacityRatio,1,
-861,Valves,Valve,Ports.Outlet.LiquidMassEnthalpy,-2562945.79109845,J/kg
-861,Valves,Valve,Ports.Outlet.LiquidMassFraction,0.740866846329231,fraction
-861,Valves,Valve,Ports.Outlet.LiquidMolarHeatCapacity,153448.688031002,J/(kmol.K)
-861,Valves,Valve,Ports.Outlet.LiquidViscosity,9.81972174340845E-05,(N/m^2).s
-861,Valves,Valve,Ports.Outlet.Name,Outlet,
-861,Valves,Valve,Ports.Outlet.PhysicalPort,Outlet,
-861,Valves,Valve,Ports.Outlet.SolidMassFraction,0,fraction
-861,Valves,Valve,Ports.Outlet.SolidMolarFraction,0,fraction
-861,Valves,Valve,Ports.Outlet.StreamIdentifier,2cca2036-c0f1-4bb3-acd5-fb71ea3aaefc,
-861,Valves,Valve,Ports.Outlet.StreamTag,S2,
-861,Valves,Valve,Ports.Outlet.VaporCompressibility,0.745789291333764,unitless
-861,Valves,Valve,Ports.Outlet.VaporEnthalpyFlow,-24564550.9746234,W
-861,Valves,Valve,Ports.Outlet.VaporHeatCapacityRatio,1.34832148167431,
-861,Valves,Valve,Ports.Outlet.VaporMassDensity,48.8467510885472,kg/m^3
-861,Valves,Valve,Ports.Outlet.VaporMassEnthalpy,-2507848.83402532,J/kg
-861,Valves,Valve,Ports.Outlet.VaporMassEntropy,-6491.50990816276,J/(kg.K)
-861,Valves,Valve,Ports.Outlet.VaporMassFlow,9.79506844325825,kg/s
-861,Valves,Valve,Ports.Outlet.VaporMassFraction,0.259133153670769,fraction
-861,Valves,Valve,Ports.Outlet.VaporMolarDensity,1.21257279174025,kmol/m^3
-861,Valves,Valve,Ports.Outlet.VaporMolarEnthalpy,-101025083.68799,J/kmol
-861,Valves,Valve,Ports.Outlet.VaporMolarEntropy,-261501.141071941,J/(kmol.K)
-861,Valves,Valve,Ports.Outlet.VaporMolarFlow,0.243152988128073,kmol/s
-861,Valves,Valve,Ports.Outlet.VaporMolarFraction,0.288172426534114,fraction
-861,Valves,Valve,Ports.Outlet.VaporMolarHeatCapacity,95522.1243329584,J/(kmol.K)
-861,Valves,Valve,Ports.Outlet.VaporMolecularWeight,40.283561878742,g/mol
-861,Valves,Valve,Ports.Outlet.VaporStdMassDensity,48.8467510885472,kg/m^3
-861,Valves,Valve,Ports.Outlet.VaporViscosity,9.7696650799025E-06,(N/m^2).s
-861,Valves,Valve,PressureDrop,876258.344959889,Pa
-861,Valves,Valve,PressureIn,3447378.64658418,Pa
-861,Valves,Valve,PressureOut,2571120.30162429,Pa
-861,Valves,Valve,PressureOutChoked,2520910.47276813,Pa
-861,Valves,Valve,PressureRecoveryFactor,0.93,
-861,Valves,Valve,TemperatureIn,349.816666666667,K
-861,Valves,Valve,TemperatureOut,341.956747348864,K
-861,Valves,Valve,ValveFlowCoefficient,86,
-861,Valves,Valve,ValvePercentOpening,0.5,unitless
-861,Valves,Valve,VaporMoleFractionOut,0.288172426534114,fraction
-861,Valves,Valve,VolumetricFlowIn,0.0985972628717811,m^3/s
-806,Heat Curves Hot Side,HeatingCoolingCurve,EnthalpyMassBasis(1),-694748.866146293,J/kg
-806,Heat Curves Hot Side,HeatingCoolingCurve,EnthalpyMassBasis(2),-712681.665130506,J/kg
-806,Heat Curves Hot Side,HeatingCoolingCurve,EnthalpyMassBasis(3),-730360.881733001,J/kg
-806,Heat Curves Hot Side,HeatingCoolingCurve,EnthalpyMassBasis(4),-747795.900276158,J/kg
-806,Heat Curves Hot Side,HeatingCoolingCurve,EnthalpyMassBasis(5),-764994.600419004,J/kg
-806,Heat Curves Hot Side,HeatingCoolingCurve,EnthalpyMassBasis(6),-781963.650604317,J/kg
-806,Heat Curves Hot Side,HeatingCoolingCurve,EnthalpyMassBasis(7),-798708.73378018,J/kg
-806,Heat Curves Hot Side,HeatingCoolingCurve,EnthalpyMassBasis(8),-815234.723822799,J/kg
-806,Heat Curves Hot Side,HeatingCoolingCurve,EnthalpyMassBasis(9),-831545.825513523,J/kg
-806,Heat Curves Hot Side,HeatingCoolingCurve,EnthalpyMassBasis(10),-847645.687049138,J/kg
-806,Heat Curves Hot Side,HeatingCoolingCurve,EnthalpyMassBasis(11),-863537.491837576,J/kg
-806,Heat Curves Hot Side,HeatingCoolingCurve,EnthalpyMassBasis(12),-879224.034196646,J/kg
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidCriticalPressure(1),4231301.55910838,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidCriticalPressure(2),4231301.55910838,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidCriticalPressure(3),4231301.55910838,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidCriticalPressure(4),4231301.55910838,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidCriticalPressure(5),4231301.55910838,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidCriticalPressure(6),4231301.55910838,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidCriticalPressure(7),4231301.55910838,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidCriticalPressure(8),4231301.55910838,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidCriticalPressure(9),4231301.55910838,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidCriticalPressure(10),4231301.55910838,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidCriticalPressure(11),4231301.55910838,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidCriticalPressure(12),4231301.55910838,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidDensityMassBasis(1),482.435010373223,kg/m^3
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidDensityMassBasis(2),510.524695912495,kg/m^3
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidDensityMassBasis(3),541.092187757048,kg/m^3
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidDensityMassBasis(4),561.096683548011,kg/m^3
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidDensityMassBasis(5),576.439009755525,kg/m^3
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidDensityMassBasis(6),589.384531873297,kg/m^3
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidDensityMassBasis(7),600.851316340304,kg/m^3
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidDensityMassBasis(8),611.301601883424,kg/m^3
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidDensityMassBasis(9),621.020288771239,kg/m^3
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidDensityMassBasis(10),630.21357291091,kg/m^3
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidDensityMassBasis(11),639.05738561107,kg/m^3
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidDensityMassBasis(12),647.461501696746,kg/m^3
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidHeatCapacityMassBasis(1),2841.61990653951,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidHeatCapacityMassBasis(2),2800.89602649547,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidHeatCapacityMassBasis(3),2761.78564455713,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidHeatCapacityMassBasis(4),2724.02444320412,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidHeatCapacityMassBasis(5),2687.40087319729,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidHeatCapacityMassBasis(6),2651.74364438596,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidHeatCapacityMassBasis(7),2616.91270179627,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidHeatCapacityMassBasis(8),2582.79259698704,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidHeatCapacityMassBasis(9),2549.28753701137,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidHeatCapacityMassBasis(10),2516.31766553409,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidHeatCapacityMassBasis(11),2483.81618265248,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidHeatCapacityMassBasis(12),2451.72714858108,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSpecificHeat(1),2841.61990653951,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSpecificHeat(2),2800.89602649547,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSpecificHeat(3),2761.78564455713,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSpecificHeat(4),2724.02444320412,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSpecificHeat(5),2687.40087319729,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSpecificHeat(6),2651.74364438596,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSpecificHeat(7),2616.91270179627,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSpecificHeat(8),2582.79259698704,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSpecificHeat(9),2549.28753701137,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSpecificHeat(10),2516.31766553409,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSpecificHeat(11),2483.81618265248,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSpecificHeat(12),2451.72714858108,J/(kg.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSurfaceTension(1),0.00962480262568242,N/m
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSurfaceTension(2),0.0101536019269732,N/m
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSurfaceTension(3),0.0106876404463129,N/m
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSurfaceTension(4),0.0112267533336545,N/m
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSurfaceTension(5),0.0117707872130834,N/m
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSurfaceTension(6),0.0123195989794984,N/m
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSurfaceTension(7),0.012873054760848,N/m
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSurfaceTension(8),0.0134310290181093,N/m
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSurfaceTension(9),0.0139934037606558,N/m
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSurfaceTension(10),0.0145600678589083,N/m
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSurfaceTension(11),0.0151309164394887,N/m
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidSurfaceTension(12),0.0157058503507298,N/m
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidThermalConductivity(1),0.0772623523681587,W/(m.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidThermalConductivity(2),0.0786874494079298,W/(m.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidThermalConductivity(3),0.0800941083720419,W/(m.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidThermalConductivity(4),0.081459116195882,W/(m.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidThermalConductivity(5),0.0827868100866421,W/(m.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidThermalConductivity(6),0.0840795612375137,W/(m.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidThermalConductivity(7),0.085440112100488,W/(m.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidThermalConductivity(8),0.0869527192073625,W/(m.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidThermalConductivity(9),0.0884373393356244,W/(m.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidThermalConductivity(10),0.0901455955557624,W/(m.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidThermalConductivity(11),0.0919705254744548,W/(m.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidThermalConductivity(12),0.093771176678413,W/(m.K)
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidViscosity(1),0.000115076526380771,(N/m^2).s
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidViscosity(2),0.000121350001236596,(N/m^2).s
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidViscosity(3),0.000128083521892845,(N/m^2).s
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidViscosity(4),0.000135352205637743,(N/m^2).s
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidViscosity(5),0.000143168436535713,(N/m^2).s
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidViscosity(6),0.000151617654544766,(N/m^2).s
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidViscosity(7),0.000160781378158064,(N/m^2).s
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidViscosity(8),0.000170685253139301,(N/m^2).s
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidViscosity(9),0.000181118506912333,(N/m^2).s
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidViscosity(10),0.000192116821344871,(N/m^2).s
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidViscosity(11),0.000203742750993891,(N/m^2).s
-806,Heat Curves Hot Side,HeatingCoolingCurve,LiquidViscosity(12),0.000216027387065556,(N/m^2).s
-806,Heat Curves Hot Side,HeatingCoolingCurve,Pressure(1),1896058.25269457,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,Pressure(2),1896058.25269457,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,Pressure(3),1896058.25269457,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,Pressure(4),1896058.25269457,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,Pressure(5),1896058.25269457,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,Pressure(6),1896058.25269457,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,Pressure(7),1896058.25269457,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,Pressure(8),1896058.25269457,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,Pressure(9),1896058.25269457,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,Pressure(10),1896058.25269457,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,Pressure(11),1896058.25269457,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,Pressure(12),1896058.25269457,Pa
-806,Heat Curves Hot Side,HeatingCoolingCurve,Temperature(1),460.992663994445,K
-806,Heat Curves Hot Side,HeatingCoolingCurve,Temperature(2),454.63601930984,K
-806,Heat Curves Hot Side,HeatingCoolingCurve,Temperature(3),448.279374625235,K
-806,Heat Curves Hot Side,HeatingCoolingCurve,Temperature(4),441.92272994063,K
-806,Heat Curves Hot Side,HeatingCoolingCurve,Temperature(5),435.566085256025,K
-806,Heat Curves Hot Side,HeatingCoolingCurve,Temperature(6),429.20944057142,K
-806,Heat Curves Hot Side,HeatingCoolingCurve,Temperature(7),422.852795886815,K
-806,Heat Curves Hot Side,HeatingCoolingCurve,Temperature(8),416.49615120221,K
-806,Heat Curves Hot Side,HeatingCoolingCurve,Temperature(9),410.139506517605,K
-806,Heat Curves Hot Side,HeatingCoolingCurve,Temperature(10),403.782861833001,K
-806,Heat Curves Hot Side,HeatingCoolingCurve,Temperature(11),397.426217148396,K
-806,Heat Curves Hot Side,HeatingCoolingCurve,Temperature(12),391.06957246379,K
-806,Heat Curves Hot Side,HeatingCoolingCurve,VaporMassFraction(1),0,fraction
-806,Heat Curves Hot Side,HeatingCoolingCurve,VaporMassFraction(2),0,fraction
-806,Heat Curves Hot Side,HeatingCoolingCurve,VaporMassFraction(3),0,fraction
-806,Heat Curves Hot Side,HeatingCoolingCurve,VaporMassFraction(4),0,fraction
-806,Heat Curves Hot Side,HeatingCoolingCurve,VaporMassFraction(5),0,fraction
-806,Heat Curves Hot Side,HeatingCoolingCurve,VaporMassFraction(6),0,fraction
-806,Heat Curves Hot Side,HeatingCoolingCurve,VaporMassFraction(7),0,fraction
-806,Heat Curves Hot Side,HeatingCoolingCurve,VaporMassFraction(8),0,fraction
-806,Heat Curves Hot Side,HeatingCoolingCurve,VaporMassFraction(9),0,fraction
-806,Heat Curves Hot Side,HeatingCoolingCurve,VaporMassFraction(10),0,fraction
-806,Heat Curves Hot Side,HeatingCoolingCurve,VaporMassFraction(11),0,fraction
-806,Heat Curves Hot Side,HeatingCoolingCurve,VaporMassFraction(12),0,fraction
+270,ValvePortData,Valve,EnthalpyFlowIn,155997.51636,J/kg
+270,ValvePortData,Valve,EnthalpyFlowOut,155997.523338,J/kg
+270,ValvePortData,Valve,MassFlowIn,42.3107384629733,kg/s
+270,ValvePortData,Valve,MassFlowOut,42.3107384629733,kg/s
+270,ValvePortData,Valve,MoleFlowIn,2.05285971983142,kmol/s
+270,ValvePortData,Valve,MoleFlowOut,2.05285971983142,kmol/s
+270,ValvePortData,Valve,OutletVaporCompressbility,0.997392,unitless
+270,ValvePortData,Valve,OutletVaporDensity,0.772490378175,kg/m^3
+270,ValvePortData,Valve,OutletVaporHeatCapacity,1.277239,
+270,ValvePortData,Valve,OutletVaporMolecularWeight,19.177388,g/mol
+270,ValvePortData,Valve,OutletVaporViscosity,1.2012E-05,(N/m^2).s
+270,ValvePortData,Valve,Ports.Inlet.BulkAccentricFactor,0.345249,
+270,ValvePortData,Valve,Ports.Inlet.BulkCriticalPressure,20990200.6792154,Pa
+270,ValvePortData,Valve,Ports.Inlet.BulkCriticalTemperature,641.005586973956,K
+270,ValvePortData,Valve,Ports.Inlet.BulkCriticalVolume,65.12171031954,m^3/kmol
+270,ValvePortData,Valve,Ports.Inlet.BulkEnthalpyFlow,6600370.20975586,W
+270,ValvePortData,Valve,Ports.Inlet.BulkMassDensity,944.12730044732,kg/m^3
+270,ValvePortData,Valve,Ports.Inlet.BulkMassEnthalpy,155997.51636,J/kg
+270,ValvePortData,Valve,Ports.Inlet.BulkMassFlow,42.3107384629733,kg/s
+270,ValvePortData,Valve,Ports.Inlet.BulkMolarEnthalpy,3215207.556462,J/kmol
+270,ValvePortData,Valve,Ports.Inlet.BulkMolarEntropy,200892.4736724,J/(kmol.K)
+270,ValvePortData,Valve,Ports.Inlet.BulkMolarFlow,2.05285971983142,kmol/s
+270,ValvePortData,Valve,Ports.Inlet.BulkMolarHeatCapacity,79910.876718,J/(kmol.K)
+270,ValvePortData,Valve,Ports.Inlet.BulkMolecularWeight,20.610633,g/mol
+270,ValvePortData,Valve,Ports.Inlet.BulkPressure,1758163.1115,Pa
+270,ValvePortData,Valve,Ports.Inlet.BulkStdMassDensity,990.45147932674,kg/m^3
+270,ValvePortData,Valve,Ports.Inlet.BulkSurfaceTension,6.4732E-05,N/m
+270,ValvePortData,Valve,Ports.Inlet.BulkTemperature,332.395826171744,K
+270,ValvePortData,Valve,Ports.Inlet.BulkThermalConductivity,0.3138791222532,W/(m.K)
+270,ValvePortData,Valve,Ports.Inlet.BulkViscosity,0.000556961,(N/m^2).s
+270,ValvePortData,Valve,Ports.Inlet.BulkWaterFraction,0,fraction
+270,ValvePortData,Valve,Ports.Inlet.BulkWaxContent,346021.679770074,J/m^3
+270,ValvePortData,Valve,Ports.Inlet.BulkWobbeIndex,346021.679770074,J/m^3
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFlow(1),1.12748357119431,kg/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFlow(2),0.807217105783349,kg/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFlow(3),0.0128686539941468,kg/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFlow(4),0.00212556873786076,kg/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFlow(5),0.00067540810779936,kg/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFlow(6),6.605023065996E-05,kg/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFlow(7),0.0001972049518926,kg/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFlow(8),3.669524457756E-05,kg/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFlow(9),3.419494264684E-05,kg/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFlow(10),2.787677895424E-05,kg/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFlow(11),1.819749581476E-05,kg/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFlow(12),34.287601071117,kg/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFlow(13),6.07238686439424,kg/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFlow(14),0,kg/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFraction(1),0.026648,kg/kg
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFraction(2),0.019078,kg/kg
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFraction(3),0.000304,kg/kg
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFraction(4),5E-05,kg/kg
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFraction(5),1.6E-05,kg/kg
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFraction(6),2E-06,kg/kg
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFraction(7),5E-06,kg/kg
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFraction(8),8.672796E-07,kg/kg
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFraction(9),8.08187E-07,kg/kg
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFraction(10),6.588594E-07,kg/kg
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFraction(11),4.300922E-07,kg/kg
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFraction(12),0.810376,kg/kg
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFraction(13),0.143519,kg/kg
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MassFraction(14),0,kg/kg
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFlow(1),0.0256189206322414,kmol/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFlow(2),0.0236846423797882,kmol/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFlow(3),0.00080214710732952,kmol/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFlow(4),7.068821262276E-05,kmol/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFlow(5),1.531655428856E-05,kmol/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFlow(6),1.13637487972E-06,kmol/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFlow(7),3.39287091264E-06,kmol/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFlow(8),5.0865344156E-07,kmol/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFlow(9),4.7400402456E-07,kmol/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFlow(10),3.2343655796E-07,kmol/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFlow(11),1.8156294508E-07,kmol/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFlow(12),1.90325110176015,kmol/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFlow(13),0.0994108864082443,kmol/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFlow(14),0,kmol/s
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFraction(1),0.01248,mol/mol
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFraction(2),0.011537,mol/mol
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFraction(3),0.000391,mol/mol
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFraction(4),3.4E-05,mol/mol
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFraction(5),7E-06,mol/mol
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFraction(6),5.535589E-07,mol/mol
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFraction(7),2E-06,mol/mol
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFraction(8),2.477493E-07,mol/mol
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFraction(9),2.308688E-07,mol/mol
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFraction(10),1.575767E-07,mol/mol
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFraction(11),8.846425E-08,mol/mol
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFraction(12),0.927122,mol/mol
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFraction(13),0.048426,mol/mol
+270,ValvePortData,Valve,Ports.Inlet.CompLiquid1MoleFraction(14),0,mol/mol
+270,ValvePortData,Valve,Ports.Inlet.DBName,V-1-Inlet,
+270,ValvePortData,Valve,Ports.Inlet.Liquid1AccentricFactor,0.345249,
+270,ValvePortData,Valve,Ports.Inlet.Liquid1Compressibility,0.013888,unitless
+270,ValvePortData,Valve,Ports.Inlet.Liquid1CriticalPressure,20990200.6792154,Pa
+270,ValvePortData,Valve,Ports.Inlet.Liquid1CriticalTemperature,641.005586973956,K
+270,ValvePortData,Valve,Ports.Inlet.Liquid1CriticalVolume,65.12171031954,m^3/kmol
+270,ValvePortData,Valve,Ports.Inlet.Liquid1MassDensity,944.12730044732,kg/m^3
+270,ValvePortData,Valve,Ports.Inlet.Liquid1MassEnthalpy,155997.51636,J/kg
+270,ValvePortData,Valve,Ports.Inlet.Liquid1MassFlow,42.3107384629733,kg/s
+270,ValvePortData,Valve,Ports.Inlet.Liquid1MassHeatCapacity,3877.16933816329,J/(kg.K)
+270,ValvePortData,Valve,Ports.Inlet.Liquid1MolarEnthalpy,3215207.556462,J/kmol
+270,ValvePortData,Valve,Ports.Inlet.Liquid1MolarEntropy,200892.4736724,J/(kmol.K)
+270,ValvePortData,Valve,Ports.Inlet.Liquid1MolarFlow,2.05285971983142,kmol/s
+270,ValvePortData,Valve,Ports.Inlet.Liquid1MolarFraction,0,fraction
+270,ValvePortData,Valve,Ports.Inlet.Liquid1MolarHeatCapacity,79910.876718,J/(kmol.K)
+270,ValvePortData,Valve,Ports.Inlet.Liquid1MolecularWeight,20.610633,g/mol
+270,ValvePortData,Valve,Ports.Inlet.Liquid1SurfaceTension,6.4732E-05,N/m
+270,ValvePortData,Valve,Ports.Inlet.Liquid1ThermalConductivity,0.3138791222532,W/(m.K)
+270,ValvePortData,Valve,Ports.Inlet.Liquid1Viscosity,0.000556961,(N/m^2).s
+270,ValvePortData,Valve,Ports.Inlet.Liquid1VolumetricFlow,0.0448146558805233,m^3/s
+270,ValvePortData,Valve,Ports.Inlet.Liquid2MolarFraction,0,fraction
+270,ValvePortData,Valve,Ports.Inlet.LiquidMolarFraction,0,fraction
+270,ValvePortData,Valve,Ports.Inlet.Name,Inlet,
+270,ValvePortData,Valve,Ports.Inlet.SolidMolarFraction,0,fraction
+270,ValvePortData,Valve,Ports.Inlet.StreamTag,3,
+270,ValvePortData,Valve,Ports.Inlet.VaporMassFraction,0,fraction
+270,ValvePortData,Valve,Ports.Inlet.VaporMolarFraction,0,fraction
+270,ValvePortData,Valve,Ports.Outlet.BulkAccentricFactor,0.345249,
+270,ValvePortData,Valve,Ports.Outlet.BulkCriticalPressure,20990200.6792154,Pa
+270,ValvePortData,Valve,Ports.Outlet.BulkCriticalTemperature,641.005586973956,K
+270,ValvePortData,Valve,Ports.Outlet.BulkCriticalVolume,65.12171031954,m^3/kmol
+270,ValvePortData,Valve,Ports.Outlet.BulkEnthalpyFlow,6600370.50282693,W
+270,ValvePortData,Valve,Ports.Outlet.BulkMassDensity,586.8115964674,kg/m^3
+270,ValvePortData,Valve,Ports.Outlet.BulkMassEnthalpy,155997.523338,J/kg
+270,ValvePortData,Valve,Ports.Outlet.BulkMassFlow,42.3107384629733,kg/s
+270,ValvePortData,Valve,Ports.Outlet.BulkMolarEnthalpy,3215207.703,J/kmol
+270,ValvePortData,Valve,Ports.Outlet.BulkMolarEntropy,200957.8673016,J/(kmol.K)
+270,ValvePortData,Valve,Ports.Outlet.BulkMolarFlow,2.05285971983142,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.BulkMolarHeatCapacity,79894.8998892,J/(kmol.K)
+270,ValvePortData,Valve,Ports.Outlet.BulkMolecularWeight,20.610633,g/mol
+270,ValvePortData,Valve,Ports.Outlet.BulkPressure,111005.59253,Pa
+270,ValvePortData,Valve,Ports.Outlet.BulkStdMassDensity,990.45147932674,kg/m^3
+270,ValvePortData,Valve,Ports.Outlet.BulkSurfaceTension,6.4778E-05,N/m
+270,ValvePortData,Valve,Ports.Outlet.BulkTemperature,332.307948393264,K
+270,ValvePortData,Valve,Ports.Outlet.BulkWaterFraction,0,fraction
+270,ValvePortData,Valve,Ports.Outlet.BulkWaxContent,346021.679770074,J/m^3
+270,ValvePortData,Valve,Ports.Outlet.BulkWobbeIndex,346021.679770074,J/m^3
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFlow(1),1.12707154603092,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFlow(2),0.804863556733412,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFlow(3),0.00064955724875764,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFlow(4),0.00013621895402348,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFlow(5),3.73495515684E-05,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFlow(6),2.70756844332E-06,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFlow(7),1.888821619292E-05,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFlow(8),1.85632676604E-06,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFlow(9),1.58580931768E-06,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFlow(10),1.22835333212E-06,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFlow(11),4.2486485136E-07,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFlow(12),34.2844167201439,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFlow(13),6.07238178302574,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFlow(14),0,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFraction(1),0.026651,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFraction(2),0.019032,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFraction(3),1.5E-05,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFraction(4),3E-06,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFraction(5),8.831841E-07,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFraction(6),6.402432E-08,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFraction(7),4.46641E-07,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFraction(8),4.389586E-08,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFraction(9),3.749774E-08,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFraction(10),2.904738E-08,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFraction(11),1.004723E-08,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFraction(12),0.810706,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFraction(13),0.14359,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MassFraction(14),0,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFlow(1),0.0256095584857659,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFlow(2),0.0236155865956987,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFlow(3),4.048916674224E-05,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFlow(4),4.53012777752E-06,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFlow(5),8.4695774936E-07,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFlow(6),4.66192156E-08,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFlow(7),3.2494853252E-07,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFlow(8),2.570356752E-08,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFlow(9),2.192363112E-08,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFlow(10),1.423776044E-08,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFlow(11),4.28392792E-09,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFlow(12),1.90307434349223,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFlow(13),0.0994108032496435,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFlow(14),0,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFraction(1),0.012482,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFraction(2),0.01151,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFraction(3),2E-05,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFraction(4),2E-06,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFraction(5),4.128141E-07,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFraction(6),2.270395E-08,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFraction(7),1.583854E-07,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFraction(8),1.253987E-08,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFraction(9),1.07121E-08,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFraction(10),6.947401E-09,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFraction(11),2.066658E-09,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFraction(12),0.927534,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFraction(13),0.048452,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompLiquid1MoleFraction(14),0,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFlow(1),0.0004120250373986,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFlow(2),0.002353549049937,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFlow(3),0.0122190968713871,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFlow(4),0.00198934978383728,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFlow(5),0.00063805855623096,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFlow(6),6.334266221664E-05,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFlow(7),0.0001783166097018,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFlow(8),3.483891781152E-05,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFlow(9),3.260925932704E-05,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFlow(10),2.664842562212E-05,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFlow(11),1.77726309634E-05,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFlow(12),0.00318435084713188,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFlow(13),5.08124250464E-06,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFlow(14),0,kg/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFraction(1),0.019476,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFraction(2),0.111252,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFraction(3),0.577597,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFraction(4),0.094037,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFraction(5),0.030161,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFraction(6),0.002994,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFraction(7),0.008429,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFraction(8),0.001647,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFraction(9),0.001541,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFraction(10),0.00126,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFraction(11),0.00084,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFraction(12),0.150524,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFraction(13),0.00024,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMassFraction(14),0,kg/kg
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFlow(1),9.36214647552E-06,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFlow(2),6.905578408948E-05,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFlow(3),0.00076165794058728,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFlow(4),6.615808484524E-05,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFlow(5),1.44695965392E-05,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFlow(6),1.08975566412E-06,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFlow(7),3.06792238012E-06,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFlow(8),4.8282387616E-07,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFlow(9),4.5195439556E-07,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFlow(10),3.0919879752E-07,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFlow(11),1.7740501504E-07,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFlow(12),0.00017675839391984,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFlow(13),8.31586008E-08,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFlow(14),0,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFraction(1),0.008487,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFraction(2),0.0626,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFraction(3),0.690455,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFraction(4),0.059973,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFraction(5),0.013117,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFraction(6),0.000988,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFraction(7),0.002781,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFraction(8),0.000438,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFraction(9),0.00041,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFraction(10),0.00028,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFraction(11),0.000161,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFraction(12),0.160234,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFraction(13),7.5E-05,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.CompVapourMoleFraction(14),0,mol/mol
+270,ValvePortData,Valve,Ports.Outlet.DBName,V-1-Outlet,
+270,ValvePortData,Valve,Ports.Outlet.Liquid1AccentricFactor,0.345391,
+270,ValvePortData,Valve,Ports.Outlet.Liquid1Compressibility,0.000876,unitless
+270,ValvePortData,Valve,Ports.Outlet.Liquid1CriticalPressure,20997346.2126279,Pa
+270,ValvePortData,Valve,Ports.Outlet.Liquid1CriticalTemperature,641.196103086591,K
+270,ValvePortData,Valve,Ports.Outlet.Liquid1CriticalVolume,65.10469398777,m^3/kmol
+270,ValvePortData,Valve,Ports.Outlet.Liquid1MassDensity,945.71008776119,kg/m^3
+270,ValvePortData,Valve,Ports.Outlet.Liquid1MassEnthalpy,155719.054618,J/kg
+270,ValvePortData,Valve,Ports.Outlet.Liquid1MassFlow,42.2895834228272,kg/s
+270,ValvePortData,Valve,Ports.Outlet.Liquid1MassHeatCapacity,3877.32006296116,J/(kg.K)
+270,ValvePortData,Valve,Ports.Outlet.Liquid1MolarEnthalpy,3209588.270754,J/kmol
+270,ValvePortData,Valve,Ports.Outlet.Liquid1MolarEntropy,200856.4462584,J/(kmol.K)
+270,ValvePortData,Valve,Ports.Outlet.Liquid1MolarFlow,2.05175659566624,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.Liquid1MolarFraction,0,fraction
+270,ValvePortData,Valve,Ports.Outlet.Liquid1MolarHeatCapacity,79917.0438744,J/(kmol.K)
+270,ValvePortData,Valve,Ports.Outlet.Liquid1MolecularWeight,20.611404,g/mol
+270,ValvePortData,Valve,Ports.Outlet.Liquid1SurfaceTension,6.4778E-05,N/m
+270,ValvePortData,Valve,Ports.Outlet.Liquid1ThermalConductivity,0.3146060308272,W/(m.K)
+270,ValvePortData,Valve,Ports.Outlet.Liquid1Viscosity,0.000558441,(N/m^2).s
+270,ValvePortData,Valve,Ports.Outlet.Liquid1VolumetricFlow,0.0447172824783936,m^3/s
+270,ValvePortData,Valve,Ports.Outlet.Liquid2MolarFraction,0,fraction
+270,ValvePortData,Valve,Ports.Outlet.LiquidMolarFraction,0,fraction
+270,ValvePortData,Valve,Ports.Outlet.Name,Outlet,
+270,ValvePortData,Valve,Ports.Outlet.SolidMolarFraction,0,fraction
+270,ValvePortData,Valve,Ports.Outlet.StreamTag,4,
+270,ValvePortData,Valve,Ports.Outlet.VaporAccentricFactor,0.080101,
+270,ValvePortData,Valve,Ports.Outlet.VaporCompressibility,0.997392,unitless
+270,ValvePortData,Valve,Ports.Outlet.VaporCriticalPressure,7699865.58383791,Pa
+270,ValvePortData,Valve,Ports.Outlet.VaporCriticalTemperature,286.655080805818,K
+270,ValvePortData,Valve,Ports.Outlet.VaporCriticalVolume,0.0967775720244461,m^3/kmol
+270,ValvePortData,Valve,Ports.Outlet.VaporHeatCapacityRatio,1.277239,
+270,ValvePortData,Valve,Ports.Outlet.VaporMassDensity,0.772490378175,kg/m^3
+270,ValvePortData,Valve,Ports.Outlet.VaporMassEnthalpy,712666.24521,J/kg
+270,ValvePortData,Valve,Ports.Outlet.VaporMassFlow,0.0211550400200678,kg/s
+270,ValvePortData,Valve,Ports.Outlet.VaporMassFraction,0.000499992221291576,fraction
+270,ValvePortData,Valve,Ports.Outlet.VaporMassHeatCapacity,2018.48974595563,J/(kg.K)
+270,ValvePortData,Valve,Ports.Outlet.VaporMolarEnthalpy,13667077.254428,J/kmol
+270,ValvePortData,Valve,Ports.Outlet.VaporMolarEntropy,389595.5438796,J/(kmol.K)
+270,ValvePortData,Valve,Ports.Outlet.VaporMolarFlow,0.00110312416518588,kmol/s
+270,ValvePortData,Valve,Ports.Outlet.VaporMolarFraction,0.000537,fraction
+270,ValvePortData,Valve,Ports.Outlet.VaporMolarHeatCapacity,38709.3399156,J/(kmol.K)
+270,ValvePortData,Valve,Ports.Outlet.VaporMolecularWeight,19.177388,g/mol
+270,ValvePortData,Valve,Ports.Outlet.VaporStdMassDensity,0.772490378175,kg/m^3
+270,ValvePortData,Valve,Ports.Outlet.VaporStdVolumeFlow,0.0273854721184678,m^3/s
+270,ValvePortData,Valve,Ports.Outlet.VaporThermalConductivity,0.0329583808921,W/(m.K)
+270,ValvePortData,Valve,Ports.Outlet.VaporViscosity,1.2012E-05,(N/m^2).s
+270,ValvePortData,Valve,Ports.Outlet.VaporVolumetricFlow,0.0273854721184678,m^3/s
+270,ValvePortData,Valve,PressureDrop,1647157.51897,Pa
+270,ValvePortData,Valve,PressureIn,1758163.1115,Pa
+270,ValvePortData,Valve,PressureOut,111005.59253,Pa
+270,ValvePortData,Valve,TemperatureIn,332.395826171744,K
+270,ValvePortData,Valve,TemperatureOut,332.307948393264,K
+270,ValvePortData,Valve,VaporMoleFractionOut,0.000537,fraction

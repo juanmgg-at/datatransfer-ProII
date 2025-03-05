@@ -1,0 +1,18 @@
+﻿Oid,ClassName,Name,Value,Baseline,Units,IsSame
+236,HeatExchanger,ColdPressureIn,111005.636,111005.636,Pa,✔
+236,HeatExchanger,ColdTemperatureIn,332.308119,332.308119,K,✔
+236,HeatExchanger,ColdPressureOut,111005.636,111005.636,Pa,✔
+236,HeatExchanger,ColdTemperatureOut,361.369932,361.369932,K,✔
+236,HeatExchanger,Duty,4804665.55939929,4804665.55939929,W,✔
+236,HeatExchanger,HotPressureIn,120658.3,120658.3,Pa,✔
+236,HeatExchanger,HotTemperatureIn,379.571146,379.571146,K,✔
+236,HeatExchanger,HotPressureOut,120658.3,120658.3,Pa,✔
+236,HeatExchanger,HotTemperatureOut,349.816667,349.816667,K,✔
+236,HeatExchanger,LogMeanTemperatureDifference,17.852639,17.852639,K,✔
+236,HeatExchanger,NumberOfShellPasses,1,1,,✔
+236,HeatExchanger,NumberOfTubePasses,1,1,,✔
+236,HeatExchanger,UA,269129.146,269129.146,W/K,✔
+236,HeatExchanger,LogMeanTemperatureDifferenceCorrected,17.759782,17.759782,K,✔
+236,HeatExchanger,FlowDirection,Countercurrent,Countercurrent,,✔
+N/A,HeatExchanger,LogMeanTempDiffCorrectionFactor,N/A,1,,✖,Missing
+Test Summary: Fail, Number of Fails: 1
