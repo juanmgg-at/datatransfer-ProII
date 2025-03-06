@@ -9,7 +9,7 @@ namespace DataExtractionNamespace
 
     public static class Environment
     {
-        public const string WorkspaceName = "A3";
+        public const string WorkspaceName = "A1";
         public const string BusinessServer = "ABE-Automation.qae.aspentech.com";
 
         
@@ -93,7 +93,8 @@ namespace DataExtractionNamespace
             //{"Tubine", 52},
             //{"SideColumn", 53},
             //{"DistillationPortData", 54},
-            {"ValvePortData", 55},
+            //{"ValvePortData", 55},
+            {"RigorousExchanger", 56},
             
 
             // Thermal Design Only 

@@ -556,6 +556,15 @@ namespace DataExtractionNamespace
 
          },
 
+         // 56 RigorousExchanger
+         { 56, new Dictionary<string, string>
+             {
+                 {"118", "HeatExchanger" } 
+             }
+
+
+         },
+
 
 
             //// 51. AirCooled
