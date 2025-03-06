@@ -1,0 +1,37 @@
+﻿Oid,ClassName,Name,Value,Baseline,Units,IsSame
+1213,HeatExchanger,Duty,5329588.61537478,5329588.61537478,W,✔
+1213,HeatExchanger,UFouled,68.052,68.052,W/(m^2.K),✔
+1213,HeatExchanger,UClean,71.839,71.839,W/(m^2.K),✔
+1213,HeatExchanger,UA,3633863937.074,3633863937.074,W/K,✔
+1213,HeatExchanger,LogMeanTemperatureDifference,14.666451,14.666451,K,✔
+1213,HeatExchanger,FTFactor,0.0001,0.0001,unitless,✔
+1213,HeatExchanger,ShellPressureDrop,2881.113,2881.113,Pa,✔
+1213,HeatExchanger,TubePressureDrop,3003.449,3003.449,Pa,✔
+1213,HeatExchanger,ShellDesignPressure,2068428,2068428,Pa,✔
+1213,HeatExchanger,Orientation,Horizontal,Horizontal,,✔
+1213,HeatExchanger,ShellTEMAType,AES,AES,,✔
+1213,HeatExchanger,TubePattern,Square,Square,,✔
+1213,HeatExchanger,TubesNumber,2,605,,✖
+1213,HeatExchanger,NumberOfTubePasses,2,2,,✔
+1213,HeatExchanger,TubeMaterial,CARB STL,CARB STL,,✔
+1213,HeatExchanger,NumberOfShellPasses,1,1,,✔
+1213,HeatExchanger,ShellParallel,1,1,,✔
+1213,HeatExchanger,ShellSeries,1,1,,✔
+1213,HeatExchanger,AreaPerShell,284.100639,284.100639,m^2,✔
+1213,HeatExchanger,TubeInletNozzleDiameter,0.2027174,0.2027174,m,✔
+1213,HeatExchanger,TubeOutletNozzleDiameter,0.59055,0.59055,m,✔
+1213,HeatExchanger,ShellInletNozzleDiameter,0.2027174,0.2027174,m,✔
+1213,HeatExchanger,ShellOutletNozzleDiameter,0.2027174,0.2027174,m,✔
+1213,HeatExchanger,BaffleType,Single,Single,,✔
+1213,HeatExchanger,BaffleCut,0.2,0.2,%,✔
+1213,HeatExchanger,BaffleSpacing,0.508,0.508,m,✔
+1213,HeatExchanger,BaffleSpacingInlet,0.656414183,0.656414183,m,✔
+1213,HeatExchanger,BaffleSpacingOutlet,0.656414183,0.656414183,m,✔
+1213,HeatExchanger,BaffleThickness,0.00635,0.00635,m,✔
+1213,HeatExchanger,TubePitch,0.033866667,0.033866667,m,✔
+1213,HeatExchanger,TubeLength,6.096,6.096,m,✔
+1213,HeatExchanger,TubeInsideDiameter,0.021184,0.021184,m,✔
+1213,HeatExchanger,TubeOutsideDiameter,0.0254,0.0254,m,✔
+1213,HeatExchanger,ShellDiameter,1.2192,1.2192,m,✔
+1213,HeatExchanger,ShellFoulingResistance,0.00035222,0.00035222,m^2.K/W,✔
+Test Summary: Fail, Number of Fails: 1

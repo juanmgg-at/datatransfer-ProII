@@ -124,7 +124,7 @@ namespace DataExtractionNamespace
             string extractedDataPath = $@"{Environment.pathToStoreFiles}extracted_data.csv";
             File.WriteAllLines(extractedDataPath, csvRows);
 
-            //Utilis.CompareFiles(Environment.baselinePathFile, extractedDataPath);
+            Utilis.CompareFiles(Environment.baselinePathFile, extractedDataPath);
 
             Console.WriteLine("Done!");
 

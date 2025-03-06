@@ -1,0 +1,19 @@
+﻿Oid,ClassName,Name,Value,Baseline,Units,IsSame
+535,Generic,Ports.Inlet1.BulkTemperature,233.1499976,233.1499976,K,✔
+535,Generic,Ports.Outlet1.BulkTemperature,233.1499976,233.1499976,K,✔
+535,Generic,Ports.Outlet2.BulkTemperature,233.1499976,233.1499976,K,✔
+535,Generic,Ports.Inlet1.BulkPressure,111427.889519868,111427.889519868,Pa,✔
+535,Generic,Ports.Outlet1.BulkPressure,111427.889519868,111427.889519868,Pa,✔
+535,Generic,Ports.Outlet2.BulkPressure,111427.889519868,111427.889519868,Pa,✔
+535,Generic,Ports.Outlet1.BulkMassFlow,0.143787585692106,0.143787585692106,kg/s,✔
+535,Generic,Ports.Outlet2.BulkMassFlow,0.100578994736027,0.100578994736027,kg/s,✔
+535,Generic,Ports.Inlet1.LiquidMolarFraction,0,1,fraction,✖
+535,Generic,Ports.Outlet1.LiquidMolarFraction,0,1,fraction,✖
+535,Generic,Ports.Outlet2.LiquidMolarFraction,0,1,fraction,✖
+535,Generic,Ports.Inlet1.VaporMolarFraction,0,0,fraction,✔
+535,Generic,Ports.Outlet1.VaporMolarFraction,0,0,fraction,✔
+535,Generic,Ports.Outlet2.VaporMolarFraction,0,0,fraction,✔
+535,Generic,Ports.Inlet1.SolidMolarFraction,0,0,fraction,✔
+535,Generic,Ports.Outlet1.SolidMolarFraction,0,0,fraction,✔
+535,Generic,Ports.Outlet2.SolidMolarFraction,0,0,fraction,✔
+Test Summary: Fail, Number of Fails: 3

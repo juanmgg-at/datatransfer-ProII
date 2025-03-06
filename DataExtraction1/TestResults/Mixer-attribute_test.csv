@@ -1,0 +1,7 @@
+﻿Oid,ClassName,Name,Value,Baseline,Units,IsSame
+474,Generic,Ports.Outlet1.BulkTemperature,349.816294088886,349.816294088886,K,✔
+474,Generic,Ports.Outlet1.BulkPressure,101352.93231,101352.93231,Pa,✔
+474,Generic,Ports.Outlet1.LiquidMolarFraction,0,1,fraction,✖
+474,Generic,Ports.Outlet1.VaporMassFraction,0,0,fraction,✔
+474,Generic,Ports.Outlet1.SolidMolarFraction,0,0,fraction,✔
+Test Summary: Fail, Number of Fails: 1

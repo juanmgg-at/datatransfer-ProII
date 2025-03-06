@@ -1,0 +1,7 @@
+﻿Oid,ClassName,Name,Value,Baseline,Units,IsSame
+152,Separator,UtilityDuty,0,0,W,✔
+152,Separator,Type,Adiabatic,Adiabatic,,✔
+152,Separator,PressureDrop,0,0,Pa,✔
+152,Separator,OperatingPressure,111005.636,111005.636,Pa,✔
+152,Separator,OperatingTemperature,332.308119,332.308119,K,✔
+Test Summary: Pass, Number of Fails: 0

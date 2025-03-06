@@ -1,0 +1,9 @@
+﻿Oid,ClassName,Name,Value,Baseline,Units,IsSame
+412,PipingSystem,BulkTemperature,310.927776,310.927776,K,✔
+412,PipingSystem,BulkPressure,1758163.1115,1758163.1115,Pa,✔
+412,PipingSystem,LiquidMolarFraction,0,0,fraction,✔
+412,PipingSystem,VaporMolarFraction,1,1,fraction,✔
+412,PipingSystem,SolidMolarFraction,0,0,fraction,✔
+412,PipingSystem,Liquid1MolarFraction,0,0,fraction,✔
+412,PipingSystem,Liquid2MolarFraction,0,0,fraction,✔
+Test Summary: Pass, Number of Fails: 0

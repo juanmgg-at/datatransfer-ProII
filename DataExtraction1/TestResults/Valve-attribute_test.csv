@@ -1,0 +1,5 @@
+﻿Oid,ClassName,Name,Value,Baseline,Units,IsSame
+222,Valve,PressureOut,111005.636,111005.636,Pa,✔
+222,Valve,TemperatureOut,332.308119,332.308119,K,✔
+N/A,Valve,PressureDrop,N/A,1647158.164,,✖,Missing
+Test Summary: Fail, Number of Fails: 1
