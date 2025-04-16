@@ -1,13 +1,10 @@
 Test Summary Report
 Total Sheets Compared: 18
 --------------------------------------------------
-Sheet: Simple HX, Number of Fails: 1, fail
+Sheet: Simple HX, Number of Fails: 1
 Sheet: Valve, Number of Fails: 1
 Sheet: Compressor, Number of Fails: 1
-Sheet: Air Cooled HX, Number of Fails: 1
 Sheet: Bulk Phase & Liquid Phase, Number of Fails: 3
 Sheet: Vapor Phase, Number of Fails: 1
 Sheet: Mixer, Number of Fails: 1
-Sheet: Splitter, Number of Fails: 3
 Sheet: PumpAround, Number of Fails: 3
-Sheet: RigorousExchanger, Number of Fails: 1

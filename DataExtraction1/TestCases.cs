@@ -433,7 +433,7 @@ namespace DataExtractionNamespace
         // 40. Pump
         { 40, new Dictionary<string, string>
              {
-                 {"110", "Pump" }
+                 {"117", "Pump" }
              }
 
          },
@@ -441,7 +441,7 @@ namespace DataExtractionNamespace
         // 41. Valve
         { 41, new Dictionary<string, string>
              {
-                 {"222", "Valve" }
+                 {"248", "Valve" }
              }
 
          },
@@ -449,7 +449,7 @@ namespace DataExtractionNamespace
         // 42. Flash
         { 42, new Dictionary<string, string>
              {
-                 {"152", "Separator" }
+                 {"163", "Separator" }
              }
 
          },
@@ -457,7 +457,7 @@ namespace DataExtractionNamespace
          // 43. Compressor
         { 43, new Dictionary<string, string>
              {
-                 {"269", "Compressor" }
+                 {"298", "Compressor" }
              }
 
          },
@@ -465,7 +465,7 @@ namespace DataExtractionNamespace
          // 44. Air Cooled HX
         { 44, new Dictionary<string, string>
              {
-                 {"317", "AirCooledExchanger" }
+                 {"346", "AirCooledExchanger" }
              }
 
          }, 
@@ -473,21 +473,21 @@ namespace DataExtractionNamespace
         // 45. Stream
         { 45, new Dictionary<string, string>
              {
-                 {"412", "PipingSystem" }
+                 {"445", "PipingSystem" }
              }
 
          },
         // 46. Bulk Phase & Liquid Phase
         { 46, new Dictionary<string, string>
              {
-                 {"430", "PipingSystem" }
+                 {"464", "PipingSystem" }
              }
 
          },
           // 47. Vapor Phase
         { 47, new Dictionary<string, string>
              {
-                 {"448", "PipingSystem" }
+                 {"487", "PipingSystem" }
              }
 
          },   
@@ -495,7 +495,7 @@ namespace DataExtractionNamespace
         // 48 Distillation Column and Trays
         { 48, new Dictionary<string, string>
              {
-                 {"816", "Distillation" }
+                 {"925", "Distillation" }
              }
 
          },
@@ -503,7 +503,7 @@ namespace DataExtractionNamespace
         // 49 Mixer
         { 49, new Dictionary<string, string>
              {
-                 {"474", "Generic" }
+                 {"515", "Generic" }
              }
 
          },
@@ -511,7 +511,7 @@ namespace DataExtractionNamespace
         // 50 Splitter
         { 50, new Dictionary<string, string>
              {
-                 {"535", "Generic" }
+                 {"600", "Generic" }
              }
 
          },
@@ -519,7 +519,7 @@ namespace DataExtractionNamespace
          // 51 Pump Around
         { 51, new Dictionary<string, string>
              {
-                 {"596", "Distillation" }
+                 {"685", "Distillation" }
              }
 
          }, 
@@ -527,7 +527,7 @@ namespace DataExtractionNamespace
         // 52 Turbine
         { 52, new Dictionary<string, string>
              {
-                 {"949", "Expander" }
+                 {"1070", "Expander" }
              }
 
          },
@@ -535,7 +535,7 @@ namespace DataExtractionNamespace
          // 53 SideColumn
         { 53, new Dictionary<string, string>
              {
-                 {"996", "Distillation" }
+                 {"1118", "Distillation" }
              }
 
          },
@@ -543,7 +543,7 @@ namespace DataExtractionNamespace
          // 54 DistillationPortData
         { 54, new Dictionary<string, string>
              {
-                 {"1019", "Distillation" } // CN-1 Object since this column has stream 1 and 3 data. compare these data with data in baseline for Stream and Bulk Phase & Liquid Phase
+                 {"1143", "Distillation" } // CN-1 Object since this column has stream 1 and 3 data. compare these data with data in baseline for Stream and Bulk Phase & Liquid Phase
              }
 
          },
@@ -551,7 +551,7 @@ namespace DataExtractionNamespace
         // 55 ValvePortData
          { 55, new Dictionary<string, string>
              {
-                 {"1166", "Valve" } // V-1 Object since this column has stream 3 and 4 data. compare these data with data in baseline for Bulk Phase & Liquid Phase and VaporPhase
+                 {"1312", "Valve" } // V-1 Object since this column has stream 3 and 4 data. compare these data with data in baseline for Bulk Phase & Liquid Phase and VaporPhase
              }
 
          },
@@ -559,7 +559,7 @@ namespace DataExtractionNamespace
          // 56 RigorousExchanger
          { 56, new Dictionary<string, string>
              {
-                 {"1213", "HeatExchanger" } 
+                 {"1362", "HeatExchanger" } 
              }
 
 

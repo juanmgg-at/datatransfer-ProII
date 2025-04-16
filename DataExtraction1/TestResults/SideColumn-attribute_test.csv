@@ -1,4 +1,4 @@
 ﻿Oid,ClassName,Name,Value,Baseline,Units,IsSame
-996,Distillation,NumberOfPumpArounds,0,0,,✔
-996,Distillation,ReboilerType,No Reboiler,No Reboiler,,✔
+1118,Distillation,NumberOfPumpArounds,0,0,,✔
+1118,Distillation,ReboilerType,No Reboiler,No Reboiler,,✔
 Test Summary: Pass, Number of Fails: 0

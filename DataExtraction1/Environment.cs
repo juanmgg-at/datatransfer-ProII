@@ -22,7 +22,6 @@ namespace DataExtractionNamespace
 
         public const string pathToStoreFiles = @"C:\Users\gutierrj\source\repos\datatransfer-ProII\DataExtraction1\";
 
-
         //public const string baselinePathFile = pathToStoreFiles + "baseline.xlsx";
         //public const string baselinePathFile = pathToStoreFiles + "baseline-thermal-design.xlsx";
         //public const string baselinePathFile = pathToStoreFiles + "baseline-hysys.xlsx";

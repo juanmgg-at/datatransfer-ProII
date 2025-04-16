@@ -1,5 +1,5 @@
 ﻿Oid,ClassName,Name,Value,Baseline,Units,IsSame
-949,Expander,AdiabaticEfficiency,0.8,0.8,unitless,✔
-949,Expander,PressureDrop,3088852.497,3088852.497,Pa,✔
-949,Expander,PressureRatio,0.237701,0.237701,unitless,✔
+1070,Expander,AdiabaticEfficiency,0.8,0.8,unitless,✔
+1070,Expander,PressureDrop,3088852.497,3088852.497,Pa,✔
+1070,Expander,PressureRatio,0.237701,0.237701,unitless,✔
 Test Summary: Pass, Number of Fails: 0
